@@ -7,7 +7,7 @@ namespace BibleTalk.Services
     public static class AppLinks
     {
         // ---- Beim Veröffentlichen anpassen -------------------------------
-        public const string AndroidPackageId = "com.companyname.bibletalk";
+        public const string AndroidPackageId = "de.appventist.bibletalk";
         public const string IosAppId = "idDEINEAPPID";
         public const string FeedbackAddress = "viktor.ott@adventisten.de";
         // ------------------------------------------------------------------

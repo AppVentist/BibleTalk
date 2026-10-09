@@ -8,7 +8,7 @@ namespace BibleTalk.Models
         public required int Number { get; init; }
         public required string Title { get; init; }
         public string? MemoryVerse { get; init; }
-        public required string Description { get; init; }
+        public string? Description { get; init; }
 
         // Startfrage der Lektion (aus der JSON)
         public string? StartingQuestion { get; init; }

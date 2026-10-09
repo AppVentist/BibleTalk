@@ -48,24 +48,60 @@
         }
       ]
     },
-      {
-        "number": 2,
-        "title": "Die Berufung eines Propheten",
-        "memoryVerse": "",
-        "description": "",
-        "startingQuestion": "",
-        "questions": [
-          {
-            "label": "",
-            "passages": [ "" ],
-            "bibleReference": "",
-            "bibleText": "",
-            "bibleQuestion": [ "" ],
-            "applicationQuestion": [ "" ],
-            "addedQuestions": [ "" ]
-          }
-        ]
-      }
+    {
+      "number": 2,
+      "title": "Die Berufung eines Propheten",
+      "memoryVerse": "„Und ich hörte die Stimme des Herrn, wie er sprach: Wen soll ich senden? Wer will unser Bote sein? Ich aber sprach: Hier bin ich, sende mich!“ (Jesaja 6,8)",
+      "description": "",
+      "startingQuestion": "Von welchem Menschen habt ihr in eurem Leben besonders viel gelernt, und was hat euch beeindruckt?",
+      "questions": [
+        {
+          "label": "Genesis 15,6 (vgl. Röm 4,3-5); Hebräer 11,8",
+          "passages": [ "Gen 15,6", "Röm 4,3-5", "Heb 11,8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wurde Abrahams Glaube als Gerechtigkeit angerechnet, und wie zeigt sein Gehorsam, was echter Glaube bedeutet?" ],
+          "applicationQuestion": [ "Abraham wurde von Gott gerufen, worauf er seine vertraute Umgebung verließ. Woran erkennen wir einen echten Ruf Gottes?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Könige 18,21 (19-39)",
+          "passages": [ "1.Kön 18,21 (19-39)" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wohl fordert Elia das Volk auf, sich zwischen Gott und Baal zu entscheiden, und was möchte Gott mit dem Feuer vom Himmel erreichen (V. 36-39)?" ],
+          "applicationQuestion": [ "Welche Dinge können heute unsere Beziehung zu Gott beeinträchtigen, und wie können wir im Alltag bewusst zeigen, dass wir ihm den ersten Platz geben?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Jesaja 6,1-8",
+          "passages": [ "Jes 6,1-8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum erkennt Jesaja angesichts von Gottes Heiligkeit zuerst seine eigene Sündhaftigkeit (V. 5), und weshalb wird er gereinigt, bevor Gott ihn sendet (V. 6–8)?" ],
+          "applicationQuestion": [ "Jesaja antwortet auf Gottes Ruf: „Hier bin ich, sende mich!“ Was hindert uns manchmal daran, ebenso bereitwillig auf Gottes Ruf zu antworten?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Daniel 2,46-48",
+          "passages": [ "Dan 2,46-48" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum fällt der mächtige König Nebukadnezar vor Daniel nieder (V. 46), und was zeigt sein anschließendes Bekenntnis über sein Verständnis von Gott (V. 47)?" ],
+          "applicationQuestion": [ "Nebukadnezar erkennt Gottes Macht an, bleibt aber dennoch seinen bisherigen Vorstellungen verhaftet. Was ist der Unterschied zwischen der Anerkennung Gottes und einer echten Bekehrung?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Matthäus 11,1-6",
+          "passages": [ "Mat 11,1-6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Johannes der Täufer lässt Jesus fragen, ob er wirklich der Messias ist. Warum antwortet Jesos wohl mit dem Hinweis auf seine Taten statt mit einem einfachen Ja?" ],
+          "applicationQuestion": [ "Wie können wir im Alltag an Jesus festhalten, wenn unsere Gebete scheinbar unbeantwortet bleiben oder Gott anders handelt, als wir es erwarten?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
+    }
       //{
       //  "number": 3,
       //  "title": "Propheten im Alten Testament",
@@ -261,7 +297,6 @@
       //      "bibleQuestion": [ "" ],
       //      "applicationQuestion": [ "" ],
       //      "addedQuestions": [ "" ]
-    }
       ]
     }
 //  ]

@@ -29,7 +29,7 @@ namespace BibleTalk.ViewModels
         public string Title => Topic.Title;
         public string? MemoryVerse => Topic.MemoryVerse;
         public bool HasMemoryVerse => Topic.HasMemoryVerse;
-        public string Description => Topic.Description;
+        public string Description => Topic.Description ?? string.Empty;
         public bool HasDescription => Topic.HasDescription;
         public string? StartingQuestion => Topic.StartingQuestion;
         public bool HasStartingQuestion => Topic.HasStartingQuestion;

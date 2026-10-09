@@ -25,7 +25,7 @@ namespace BibleTalk.Services
         // Hinweis: Das Repository muss PUBLIC sein, sonst liefert die URL 404
         // und die App faellt auf Cache bzw. mitgelieferte Dateien zurueck.
         private const string RemoteBaseUrl =
-            "https://raw.githubusercontent.com/IT-BW/BibleTalk/master/Resources/Raw/";
+            "https://raw.githubusercontent.com/AppVentist/BibleTalk/master/Resources/Raw/";
 
 
         private static readonly JsonSerializerOptions JsonOptions = new()
