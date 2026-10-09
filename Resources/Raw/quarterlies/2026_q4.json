@@ -1,0 +1,268 @@
+{
+  "title": "Die Gabe der Prophetie",
+  "period": "OKT | NOV | DEZ 2026",
+  "coverImage": "cover4.jpg",
+  "topics": [
+    {
+      "number": 1,
+      "title": "Der Schöpfer spricht",
+      "memoryVerse": "Nachdem Gott vorzeiten vielfach und auf vielerlei Weise geredet hat zu den Vätern durch die Propheten, hat er zuletzt in diesen Tagen zu uns geredet durch den Sohn, den er eingesetzt hat zum Erben über alles, durch den er auch die Welten gemacht hat. (Hebräer 1:1-2)",
+      "description": "Der Mensch ist ein Beziehungswesen. Die Sünde hat diese innige Verbindung mit Gott zerstört. Um sie wieder herzustellen, hat Gott Propheten berufen, die seine Botschaften verkünden.",
+      "startingQuestion": "Warum erleben wir Missverständnisse untereinander?",
+      "questions": [
+        {
+          "label": "Genesis 1,27-28; 2,15-17",
+          "passages": [ "Gen 1,27-28", "Gen 2,15-17" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Gott erschafft den Menschen nach seinem Bild, gibt ihm einen Auftrag und setzt ihm zugleich eine Grenze. Warum setzt Gott dem Menschen Grenzen, wenn er ihn frei geschaffen hatte? Kann echte Freiheit ohne Grenzen überhaupt bestehen?" ],
+          "applicationQuestion": [ "Welche Grenzen fallen dir ein – im Kontext von Glauben und Gemeinde?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Genesis 3,1-10 (vgl. Lukas 15,11-32)",
+          "passages": [ "Gen 3,1-10", "Luk 15,11-32" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche Schritte der Versuchung könnt ihr in Genesis 3,1–6 erkennen – und an welcher Stelle verändert die Schlange besonders das Bild, das Eva von Gott hat?" ],
+          "applicationQuestion": [ "Nach der Sünde verstecken sich Adam und Eva vor Gott. Warum führt Sünde scheinbar häufig dazu, dass Menschen Abstand von dem Gott nehmen, obwohl sie ihn am dringendsten brauchen?" ],
+          "addedQuestions": [ "Gottes erste Worte nach dem Sündenfall lauten: „Wo bist du?“ Was zeigt diese Frage über Gottes Charakter – und was bedeutet sie für einen Menschen, der sich von Gott entfernt hat?" ]
+        },
+        {
+          "label": "Genesis 3,15.22-24",
+          "passages": [ "Gen 3,15.22-24" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche Hoffnung steckt bereits in Vers 15, und wie ergänzen die anderen Verse diese Hoffnung durch die Begrenzung des Zugangs zum Baum des Lebens?" ],
+          "applicationQuestion": [ "Warum verhinderte wohl Gott nach dem Sündenfall den Zugang zum Baum des Lebens?" ],
+          "addedQuestions": [ "Was lernen wir aus diesen Versen über die menschliche Sterblichkeit und über die Hoffnung, dass Gott den verlorenen Zugang zum Leben eines Tages wiederherstellt?" ]
+        },
+        {
+          "label": "Hebräer 1,1-2",
+          "passages": [ "Heb 1,1-2" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welchen Unterschied macht dieser Abschnitt zwischen Gottes Reden durch die Propheten und seinem Reden durch den Sohn, und was sagt das über die Stellung Jesu aus?" ],
+          "applicationQuestion": [ "Auf welche vielfältigen Arten spricht Gott womöglich heute zu uns?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+      {
+        "number": 2,
+        "title": "Die Berufung eines Propheten",
+        "memoryVerse": "",
+        "description": "",
+        "startingQuestion": "",
+        "questions": [
+          {
+            "label": "",
+            "passages": [ "" ],
+            "bibleReference": "",
+            "bibleText": "",
+            "bibleQuestion": [ "" ],
+            "applicationQuestion": [ "" ],
+            "addedQuestions": [ "" ]
+          }
+        ]
+      }
+      //{
+      //  "number": 3,
+      //  "title": "Propheten im Alten Testament",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 4,
+      //  "title": "Propheten im Neuen Testament",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 5,
+      //  "title": "Offenbarung und Inspiration",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 6,
+      //  "title": "Prophetische Schriften",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 7,
+      //  "title": "Hört her!",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 8,
+      //  "title": "Auslegung prophetischer Schriften",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 9,
+      //  "title": "Propheten prüfen",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 10,
+      //  "title": "Prophetische Autorität und Relevanz",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 11,
+      //  "title": "Prophetisches Wirken in entscheidenden Momenten",
+      //  "memoryVerse": "„“ ()",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 12,
+      //  "title": "Propheteische Offenbarungen der Endzeit",
+      //  "memoryVerse": "",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+      //    }
+      //  ]
+      //},
+      //{
+      //  "number": 13,
+      //  "title": "Der Segen der prophetischen Rede",
+      //  "memoryVerse": "",
+      //  "description": "",
+      //  "startingQuestion": "",
+      //  "questions": [
+      //    {
+      //      "label": "",
+      //      "passages": [ "" ],
+      //      "bibleReference": "",
+      //      "bibleText": "",
+      //      "bibleQuestion": [ "" ],
+      //      "applicationQuestion": [ "" ],
+      //      "addedQuestions": [ "" ]
+    }
+      ]
+    }
+//  ]
+//}

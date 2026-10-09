@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maui="clr-namespace:Microsoft.Maui.ApplicationModel;assembly=Microsoft.Maui.Essentials"
+             xmlns:vm="clr-namespace:BibleTalk.ViewModels"
+             x:Class="BibleTalk.Views.SettingsPage"
+             Title="Info">
+
+    <!-- ScrollView, damit die Seite mitwaechst, wenn weitere
+         Einstellungen (Design, Schriftgroesse, Rechtliches) dazukommen -->
+    <ScrollView>
+        <VerticalStackLayout Padding="0,12,0,24" Spacing="16">
+
+            <!-- Erscheinungsbild: Auswahl wird sofort angewendet und gespeichert -->
+            <Border
+                Margin="16,16,16,0"
+                Padding="20,16"
+                StrokeShape="RoundRectangle 16"
+                Stroke="{AppThemeBinding Light={StaticResource LightOutlineBrush}, Dark={StaticResource DarkOutlineBrush}}"
+                Background="{AppThemeBinding Light={StaticResource LightSurfaceBrush}, Dark={StaticResource DarkSurfaceBrush}}">
+                <VerticalStackLayout
+                    x:DataType="vm:SettingsViewModel"
+                    RadioButtonGroup.GroupName="AppTheme"
+                    RadioButtonGroup.SelectedValue="{Binding SelectedTheme, Mode=TwoWay}"
+                    Spacing="4">
+                    <Label Text="Erscheinungsbild"
+                           FontSize="18"
+                           FontAttributes="Bold" />
+                    <Label Text="Wähle, ob die App hell oder dunkel angezeigt wird."
+                           FontSize="13"
+                           TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"
+                           Margin="0,0,0,8" />
+
+                    <RadioButton Content="Wie System" Value="System" />
+                    <RadioButton Content="Hell" Value="Light" />
+                    <RadioButton Content="Dunkel" Value="Dark" />
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- AppVentist VisionStatement -->
+            <Border Style="{StaticResource BrandCard}">
+                <VerticalStackLayout Padding="24" Spacing="10">
+                    <Border
+                            Stroke="{AppThemeBinding Light={StaticResource OnBrandLightBrush}, Dark={StaticResource OnBrandDarkBrush}}"
+                            StrokeShape="RoundRectangle 10"
+                            WidthRequest="240"
+                            HorizontalOptions="Center">
+                        <Image Source="logo_appventist_white.png"
+                           HeightRequest="80"
+                           Aspect="AspectFit" />
+                    </Border>
+
+                    <!-- TextColor explizit: der Standard-Label-Stil ist im
+                         Light Mode schwarz und waere auf der blauen Karte
+                         kaum lesbar -->
+
+                    <Label Text="Developed by AppVentist."
+                           HorizontalTextAlignment="Center"
+                           TextColor="White"/>
+                    <Label Text="AppVentist entwickelt digitale Tools. Sie stärken den Glauben, fördern Jüngerschaft und preisen Gott durch das ewige Evangelium – bis Jesus wiederkommt!"
+                           FontSize="14"
+                           HorizontalTextAlignment="Center"
+                           TextColor="White" />
+
+                    <VerticalStackLayout Padding="0,12,0,0" Spacing="2">
+                        <Label Text="{Binding Source={x:Static maui:AppInfo.Current}, Path=VersionString, StringFormat='Version {0}'}"
+                               FontSize="12"
+                               HorizontalOptions="Center"
+                               TextColor="White" />
+                        <Label Text="AppVentist © 2026"
+                               FontSize="12"
+                               HorizontalOptions="Center"
+                               TextColor="White" />
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

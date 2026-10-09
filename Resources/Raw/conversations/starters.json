@@ -1,0 +1,35 @@
+{
+ "title":"Ein Abend, ein Thema", "period":"3 Gespräche", "coverImage":"cover_evangelien.png",
+ "topics":[
+  {
+   "number":1,"title":"Wenn Sorgen den Alltag bestimmen","category":"Alltag","conversationReference":"Matthäus 6,25–34","durationMinutes":30,
+   "description":"Sorgen können viel Raum einnehmen. Lest Matthäus 6,25–34 gemeinsam und entdeckt, wie Jesus zum Vertrauen einlädt. Lasst Raum für unterschiedliche Erfahrungen; niemand muss etwas Persönliches erzählen.",
+   "startingQuestion":"Was hilft dir, wenn deine Gedanken immer um dieselbe Sorge kreisen?",
+   "questions":[
+    {"id":"worry_observe","label":"Den Text entdecken","passages":["Mt 6,25-34"],"bibleQuestion":["Welche Sorgen spricht Jesus an? Welche Bilder benutzt er?","Was sagen die Vögel und die Blumen über Gottes Fürsorge aus?"],"notePrompt":"Was fällt dir im Text auf?"},
+    {"id":"worry_understand","label":"Gemeinsam verstehen","passages":["Mt 6,25-34"],"bibleQuestion":["Welche Verbindung stellt Jesus zwischen Sorgen, Vertrauen und Gottes Reich her?","Wie versteht ihr Vers 34? Was bedeutet er für den heutigen Tag?"],"applicationQuestion":["Wie lässt sich Jesu Einladung leben, wenn eine Sorge ganz real bleibt?"],"notePrompt":"Ein Gedanke, den ich mitnehmen möchte"},
+    {"id":"worry_apply","label":"Mein nächster Schritt","applicationQuestion":["Welche Sorge möchtest du Gott im Gebet anvertrauen?","Welchen kleinen Schritt kannst du diese Woche gehen, und wer könnte dich unterstützen?"],"notePrompt":"Mein nächster Schritt bis zum nächsten Treffen"}
+   ]
+  },
+  {
+   "number":2,"title":"Vergeben – aber wie?","category":"Glaubensfragen","conversationReference":"Matthäus 18,21–35","durationMinutes":45,
+   "description":"Petrus fragt nach den Grenzen der Vergebung. Jesus antwortet mit einem Gleichnis über empfangene und weitergegebene Barmherzigkeit. Sprecht behutsam: Persönliche Verletzungen müssen hier nicht offengelegt werden. Vergebung kann Zeit brauchen und schließt schützende Grenzen nicht aus.",
+   "startingQuestion":"Woran merkt man im Alltag, dass jemand einem einen neuen Anfang ermöglicht?",
+   "questions":[
+    {"id":"forgive_observe","label":"Den Text entdecken","passages":["Mt 18,21-35"],"bibleQuestion":["Welche Frage stellt Petrus, und wie antwortet Jesus?","Wie handeln der König und der Knecht jeweils gegenüber ihren Schuldnern?"],"notePrompt":"Was fällt mir auf?"},
+    {"id":"forgive_understand","label":"Barmherzigkeit verstehen","passages":["Mt 18,21-35"],"bibleQuestion":["Warum ist der Gegensatz zwischen den beiden Schulden für das Gleichnis wichtig?","Was bedeutet es, von Herzen zu vergeben?"],"applicationQuestion":["Wie unterscheiden sich Vergebung, Versöhnung und neu gewonnenes Vertrauen?","Welche Grenzen können nötig bleiben, auch wenn jemand vergeben möchte?"],"notePrompt":"Unser wichtigster Gesprächsgedanke"},
+    {"id":"forgive_apply","label":"Mein nächster Schritt","applicationQuestion":["Wo möchtest du selbst um Vergebung bitten oder Barmherzigkeit zeigen?","Was wäre ein hilfreicher erster Schritt, ohne dich oder andere unter Druck zu setzen?"],"notePrompt":"Das möchte ich mitnehmen"}
+   ]
+  },
+  {
+   "number":3,"title":"Mut für den nächsten Schritt","category":"Bibel entdecken","conversationReference":"Josua 1,1–9","durationMinutes":30,
+   "description":"Josua übernimmt nach Moses Tod eine große Aufgabe. Lest, was Gott ihm zusagt und woran er sein Handeln ausrichten soll. Unterscheidet dabei Josuas besondere Situation von euren eigenen Entscheidungen.",
+   "startingQuestion":"Wann hast du zuletzt etwas Neues begonnen, obwohl du unsicher warst?",
+   "questions":[
+    {"id":"courage_observe","label":"Den Text entdecken","passages":["Jos 1,1-9"],"bibleQuestion":["Vor welcher Aufgabe steht Josua?","Welche Zusagen und Aufforderungen wiederholen sich?"],"notePrompt":"Eine Entdeckung im Text"},
+    {"id":"courage_understand","label":"Mut und Orientierung","passages":["Jos 1,1-9"],"bibleQuestion":["Worauf gründet Josuas Mut?","Welche Rolle spielt Gottes Weisung in den Versen 7 und 8?"],"applicationQuestion":["Was lässt sich aus diesem Text für unser Leben lernen, und was gehört zu Josuas besonderem Auftrag?"],"notePrompt":"Was gibt mir Orientierung?"},
+    {"id":"courage_apply","label":"Mein nächster Schritt","applicationQuestion":["Welcher nächste Schritt liegt gerade vor dir?","Wie kannst du dafür beten, Orientierung suchen und Unterstützung annehmen?"],"notePrompt":"Mein nächster Schritt bis zum nächsten Treffen"}
+   ]
+  }
+ ]
+}

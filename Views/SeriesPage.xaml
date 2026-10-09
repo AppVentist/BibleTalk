@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:BibleTalk.ViewModels"
+             xmlns:models="clr-namespace:BibleTalk.Models"
+             x:Class="BibleTalk.Views.SeriesPage"
+             x:DataType="vm:SeriesViewModel"
+             Title="{Binding Series.Title}"
+             Shell.NavBarIsVisible="False">
+
+    <!-- Kein Padding am äußeren Grid: das Cover soll randlos sitzen.
+         Der Innenabstand liegt deshalb auf den Zeilen 1 und 2. -->
+    <Grid RowDefinitions="Auto,Auto,*">
+
+        <!-- Header: Cover des Hefts mit Back- und Share-Button.
+             Bewusst AUSSERHALB der CollectionView, damit die Buttons
+             nicht mit Scroll-Gesten konkurrieren. -->
+        <Grid Grid.Row="0" HeightRequest="220">
+            <Image
+                Source="{Binding Series.CoverImage}"
+                Aspect="AspectFill"
+                Shadow="Gray 8 8"/>
+            <Button
+                Text=""
+                FontSize="22"
+                ImageSource="btn_left_white.png"
+                WidthRequest="55"
+                HeightRequest="55"
+                CornerRadius="33"
+                BackgroundColor="#80000000"
+                TextColor="White"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                Margin="15,15,0,0"
+                Clicked="OnBackClicked"/>
+            <Button
+                Text=""
+                ImageSource="btn_share.png"
+                BackgroundColor="#80000000"
+                WidthRequest="55"
+                HeightRequest="55"
+                CornerRadius="33"
+                HorizontalOptions="End"
+                VerticalOptions="Start"
+                Margin="0,15,15,0"
+                Clicked="OnShareClicked"/>
+        </Grid>
+
+        <!-- Kopfbereich mit Heftinfo -->
+        <VerticalStackLayout Grid.Row="1" Padding="20,15,20,15">
+            <Label
+                Text="{Binding Series.Title}"
+                FontSize="22"
+                FontAttributes="Bold"/>
+            <Label
+                Text="{Binding Series.Subtitle}"
+                FontSize="14"
+                TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
+        </VerticalStackLayout>
+
+        <!-- 13 Themen des Quartalshefts -->
+        <CollectionView
+            Grid.Row="2"
+            Margin="20,0,20,10"
+            ItemsSource="{Binding Topics}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="vm:TopicItemViewModel">
+                    <Border
+                        StrokeShape="RoundRectangle 8"
+                        Stroke="Transparent"
+                        Padding="12"
+                        Margin="0,0,0,8"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource LightBrandCard}, Dark={StaticResource DarkBrandCard}}">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding OpenTopicCommand}" />
+                        </Border.GestureRecognizers>
+                        <Grid ColumnDefinitions="Auto,*" ColumnSpacing="12">
+                            <Label
+                                Grid.Column="0"
+                                Text="{Binding Number}"
+                                FontSize="18"
+                                FontAttributes="Bold"
+                                VerticalOptions="Center"
+                                TextColor="#FFFFFF"/>
+                            <Label
+                                Grid.Column="1"
+                                Text="{Binding Title}"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                VerticalOptions="Center"
+                                TextColor="#FFFFFF"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,610 @@
+{
+  "title": "Im Glauben wachsen",
+  "period": "APR | MAI | JUN 2026",
+  "coverImage": "cover2.jpg",
+  "topics": [
+    {
+      "number": 1,
+      "title": "Realitätscheck",
+      "memoryVerse": "„Wie mich mein Vater liebt, so liebe ich euch auch. Bleibt in meiner Liebe!“ (Joh 15,9)",
+      "description": "In diser Woche haben den aktuellen Stand unserer Bezieung mit Gott betrachtet. Um Veränderung zu erfahren, müssen wir uns der Realität stellen und auf die Lösung Jesu hören.",
+      "startingQuestion": "Wie gehen wir grundsätzlich mit Zurechtweisungen um, die an uns gerichtet werden? Und warum ist das wohl so?",
+      "questions": [
+        {
+          "label": "Offenbarung 3,14-17",
+          "passages": [ "Off 3,14-17" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Die historische Stadt Laodizea hatte keine eigene Wasserquelle – das Wasser war lauwarm und ungenießbar. Dieses Beispiel nutzt Jesus. Was genau meint er wohl, wenn er sagt, dass die Gemeinde „lauwarm“ ist (V. 15–16), und welche Hinweise gibt der Text selbst darauf, wie dieser Zustand konkret aussieht?",
+          "applicationQuestion": "Wo besteht heute die Gefahr, dass wir – ähnlich wie Laodizea – meinen, „reich“ zu sein, obwohl uns geistlich etwas fehlt, und wie können wir dem aktiv entgegenwirken?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Offenbarung 3,18-22",
+          "passages": [ "Off 3,18-22" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Welche drei konkreten Dinge empfiehlt Jesus der Gemeinde zu „kaufen“ (V. 18), und was bedeuten sie?",
+          "applicationQuestion": "Warum ist Zurechtweisung laut V. 19 ein Ausdruck von Liebe – und wie verändert das unseren Blick auf heikle Situationen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Johannes 15,1-11",
+          "passages": [ "Joh 15,1-11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Das Bild vom Weinstock ist eine zentrale Metapher für Gemeinschaft, Abhängigkeit und Fruchtbarkeit. Was bedeutet es laut V. 4–5 konkret, „in Jesus zu bleiben“, und welche Folgen beschreibt der Text für das Bleiben bzw. Nicht-Bleiben?",
+          "applicationQuestion": "Wir sehnen uns nach „fruchtbaren“ Zeiten. Doch wie gehen wir mit der „Trockenheit“ im Glauben um? Warum gehören diese Phasen dazu?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Römer 8,8-14",
+          "passages": [ "Röm 8,8-14" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Welche konkreten Unterschiede beschreiben die Verse 8–9 zwischen denen, die „im Fleisch“ sind, und denen, in denen der Geist Gottes wohnt?",
+          "applicationQuestion": "Wie kann mir der Heilige Geist dabei helfen, „die Taten des Leibes zu töten“ (V. 13) und was bedeutet das? Warum muss das so radikal geschehen?",
+          "addedQuestions": [ "Woran erkennst du in deinem eigenen Leben, ob du dich vom Geist Gottes leiten lässt (V. 14)?" ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Gott kennen",
+      "memoryVerse": "„Das ist aber das ewige Leben, dass sie dich, der du allein wahrer Gott bist, und den du gesandt hast, Jesus Christus, erkennen.“ (Joh 17,3)",
+      "description": "Wir haben studiert, was die Bibel über Gott sagt. Lasst uns ihn besser kennenlernen und unsere Liebe zu ihm vertiefen.",
+      "startingQuestion": "Was glaubst du, woran mag es wohl liegen, dass viele Menschen Gott ablehnen?",
+      "questions": [
+        {
+          "label": "Genesis 3,1-5 ",
+          "passages": [ "Gen 3,1-5" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was genau verändert die Schlange in ihrem Gespräch mit Eva über Gottes Gebot und warum ist das wohl so wirkungsvoll?",
+          "applicationQuestion": "Wo erleben wir heute im Alltag ähnliche Versuchungen, Gottes Wort oder seinen guten Willen infrage zu stellen? Warum ist scheinbar der Gedanke „ihr werdet sein wie Gott“ so verführerisch?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Jesaja 57,15",
+          "passages": [ "Jes 57,15" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was sagt dieser Vers darüber aus, wo Gott wohnt, und was bedeutet das für uns Menschen?",
+          "applicationQuestion": "Was geschieht mit einem Menschen, wenn Gott in sein Leben einkehrt, der gedemütigt und niedergeschlagen ist?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Johannes 4,16-18",
+          "passages": [ "1Joh 4,16-18" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was bedeutet „Gott ist Liebe“ für dich persönlich?",
+          "applicationQuestion": "Wie können wir in der Liebe Gottes bleiben? Was macht das wohl mit mir?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Genesis 1,1; 2,7 ",
+          "passages": [ "Gen 1,1", "Gen 2,7" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was erfahren wir hier über Gott und über den Menschen?",
+          "applicationQuestion": "Welchen Unterschied macht es aus, ob der Mensch eine lebendige See wurde oder eine unsterbliche Seele besitzt?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Matthäus 1,21-23",
+          "passages": [ "Mt 1,21-23" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was verraten uns die Namen „Jesus“ und „Immanuel“ über Christus und warum er auf diese Welt gekommen ist?",
+          "applicationQuestion": "„Gott mit uns“. Wie gehen wir damit um, wenn wir uns Gott mal nicht nahe fühlen?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Stolz oder Demut",
+      "memoryVerse": "„Denn wer sich selbst erhöht, der soll erniedrigt werden; und wer sich selbst erniedrigt, der soll erhöht werden.“ (Lk 14,11)",
+      "description": "In diser Woche haben den aktuellen Stand unserer Bezieung mit Gott betrachtet. Um Veränderung zu erfahren, müssen wir uns der Realität stellen und auf die Lösung Jesu hören.",
+      "startingQuestion": "Was denkst du, warum fällt es wohl manchen Menschen so schwer, freundlich und demütig zu anderen zu sein?",
+      "questions": [
+        {
+          "label": "1. Johannes 2,15-16",
+          "passages": [ "1Joh 2,15-16" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Wie unterscheidet sich die „Lust des Fleisches“ und der „Stolz des Lebens“ von der Liebe, die der Vater für uns vorgesehen hat?",
+          "applicationQuestion": "Warum ist es unmöglich, gleichzeitig der Welt und Gott zu dienen, wenn unser Herz an irdischen Reichtümern hängt?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Lukas 18,9-14",
+          "passages": [ "Luk 18,9-14" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was lehrt uns der Kontrast zwischen dem Pharisäer und dem Zöllner über die Art von Gebet, die Gott wirklich annimmt?",
+          "applicationQuestion": "Warum ist es offensichtlich so schwer, den eigenen Stolz zu erkennen? Was kann Abhilfe schaffen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Apostelgeschichte 7,22; Hebräer 11,24-26; Lukas 22,27",
+          "passages": [ "Apg 7,22", "Heb 11,24-26", "Lk 22,27" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Mose war in aller Weisheit Ägyptens gelehrt, doch warum musste er erst vierzig Jahre in der Einsamkeit der Wüste verbringen, bevor er das Volk Gottes leiten konnte?",
+          "applicationQuestion": "Jesus sagte: „Ich aber bin unter euch wie ein Diener“. Wie definiert Jesus Demut und Führungsstärke?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Petrus 5,5-6",
+          "passages": [ "1Pt 5,5-6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Welche Verheißung gibt Gott denjenigen, die sich unter seine gewaltige Hand demütigen?",
+          "applicationQuestion": "Inwiefern ist geistlicher Stolz eine Gefahr für diejenigen, die schon lange in der Gemeinde sind oder wichtige Aufgaben übernehmen?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Die Rolle der Bibel",
+      "memoryVerse": "„Denn das Wort Gottes ist lebendig und kräftig und schärfer als jedes zweischneidige Schwert und dringt durch, bis es scheidet Seele und Geist, auch Mark und Bein, und ist ein Richter der Gedanken und Sinne des Herzens.“ (Hb 4,12)",
+      "description": "Die Bibel ist ein wunderer tiefgründiger Bericht darüber, wie der Schöpfer des Universums versucht, uns näher zu sich zu bringen. Nimm dir vor, täglich wertvolle Zeit mit Gott zu verbringen, zu beten und sein Wort zu lesen.",
+      "startingQuestion": "Die Bibel wird oft als „lebendiges Wort“ bezeichnet. Worin unterscheidet sie sich womöglich von anderen Büchern?",
+      "questions": [
+        {
+          "label": "Epheser 6,17-18",
+          "passages": [ "Eph 6,17-18" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Satan nutzt oft Ablenkung und Geschäftigkeit, um uns von der Schrift fernzuhalten. Welche konkreten Strategien können wir anwenden, um unsere tägliche Zeit mit Gott zu bewahren?",
+          "applicationQuestion": "Inwiefern beeinflusst eine Vernachlässigung des persönlichen Bibelstudiums unsere Geduld und unsere Beziehungen zu anderen Menschen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Jesaja 55,9",
+          "passages": [ "Jes 55,9" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was bedeutet es praktisch, „seine Errettung mit Furcht und Zittern zu bewirken“, während wir gleichzeitig auf Gottes Gedanken vertrauen, die höher sind als unsere?",
+          "applicationQuestion": "Wie finden wir das richtige Gleichgewicht zwischen dem Gebrauch unseres Verstandes und der Unterordnung unter die Autorität der Bibel?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Hebräer 13,8",
+          "passages": [ "Heb 13,8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "In einer Gesellschaft, die behauptet, Wahrheit sei relativ, wie hilft uns die Beständigkeit Jesu Christi dabei, einen festen moralischen Kompass zu bewahren?",
+          "applicationQuestion": "Wie können wir unser Bibelstudium von einem oberflächlichen Lesen zu einem tiefen Schürfen nach Schätzen verwandeln?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Johannes 6,63",
+          "passages": [ "Joh 6,63" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Viele junge Menschen empfinden die Bibel als trocken oder irrelevant. Wie können wir einander helfen, die „lebendige Energie“ in den Geschichten von Jesus neu zu entdecken?",
+          "applicationQuestion": "Das Wort Gottes wird als zweischneidiges Schwert beschrieben, das Gedanken und Gesinnungen richtet. Hast du schon einmal erlebt, dass die Bibel eine verborgene Einstellung in deinem Herzen aufgedeckt hat? Wie bist du damit umgegangen?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Wie man die Bibel studiert",
+      "memoryVerse": "„So soll das Wort, das aus meinem Munde geht, auch sein: Es wird nicht wieder leer zu mir zurückkommen, sondern wird tun, was mir gefällt, und ihm wird gelingen, wozu ich es sende.“ (Jes 55,11)",
+      "description": "Diese Woche haben wir erkundet, wie wir einige praktische Möglichkeiten entwickeln, um das Wort Gottes intensiver zu studieren.",
+      "startingQuestion": "Welche Einwände fallen dir ein, die Bibel NICHT zu studieren?",
+      "questions": [
+        {
+          "label": "Psalm 37,4, Apostelgeschichte 17,11",
+          "passages": [ "Ps 37,4", "Apg 17,11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Worin besteht der Unterschied zwischen aktiver (Andachts-)Zeit mit Gott oder oberflächlicher Lesepraxis in der Bibel? Welche Auswirkungen mag das wohl auf unser geistliches Wachstum haben?",
+          "applicationQuestion": "Wie können wir dem Beispiel der Beröer folgen und eine tägliche Gewohnheit entwickeln bereitwillig in der Bibel zu forschen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Markus 1,35, Psalm 46,11",
+          "passages": [ "Mk 1,35", "Ps 46,11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Welche praktischen Vorteile bietet ein fester, einsamer Ort für das Gebet oder warum mögen wir Gottes Stimme manchmal nicht zu hören?",
+          "applicationQuestion": "Wo finden wir eine „stille Zeit“ mit Gott in einer lauten Gesellschaft, die ablenkt?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Psalm 119,15-16, Jesaja 50,4",
+          "passages": [ "Ps 119,15-16", "Jes 50,4" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Welche Bibelstudienmethoden kennst du? Was hast du dabei besonders bereichernd erlebt?",
+          "applicationQuestion": "Was denkst du, welche Rolle spielen Kleingruppen für das persönliche Bibelstudium?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Psalm 119,103",
+          "passages": [ "Ps 119,103" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was bedeutet es für dich persönlich, dass Gottes Wort „süßer als Honig“ ist, und wie verändert dieser Geschmack unsere Einstellung zu seinen Geboten?",
+          "applicationQuestion": "Warum ist eine Haltung der Demut und das Ablegen eigener Meinungen so wichtig, damit die Bibel ihr eigener Ausleger sein kann?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Gebetskämpfer",
+      "memoryVerse": "„Ich liebe den HERRN, denn er hört, wenn ich rufe. Weil er ein offenes Ohr für mich hat, will ich zu ihm beten, solange ich lebe!“ (Ps 116,1-2)",
+      "description": "Diese Woche haben wir von verschiedenen Personen gelernt, die gebetet haben und uns damit zeigen, wie wichtig das Gebet für eine starke Beziehung mit Gott ist.",
+      "startingQuestion": "Warum beten Menschen?",
+      "questions": [
+        {
+          "label": "Daniel 2,20-23; 6,11-12",
+          "passages": [ "Dan 2,20-23", "Dan 6,11-12" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Als fleißiger Beter wusste Daniel, dass sein Gebet böse Konsequenzen haben würden, wenn er seine Praxis beibehält. Wo erleben Christen heute den Konflikt zwischen Anpassung und Treue zu Gott?",
+          "applicationQuestion": "Für Daniel war das Gebet eine feste Gewohnheit. Welche Ausreden fallen uns ein, diese Gewohnheit zu brechen und welche Auswirkungen mag das auf unser Glaubensleben haben?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Römer 12,12; Kolosser 4,2; 1. Thessalonicher 5,17",
+          "passages": [ "Röm 12,12", "Kol 4,2", "1Thes 5,17" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Welche Ratschläge erteilen uns die Verse und wo liegen die Herausforderungen in der Umsetzung?",
+          "applicationQuestion": "Wie ist es möglich, eine ständige Verbindung zu Gott aufrechtzuerhalten, während wir von Verpflichtungen oder Beruf abgelenkt sind?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Exodus 32,30-32",
+          "passages": [ "Ex 32,30-32" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Welche Haltung zeigen diese Verse Moses gegenüber Menschen, die schwer gesündigt oder ihn persönlich verletzt haben?",
+          "applicationQuestion": "Wie können wir heute lernen, für andere ernsthaft zu beten, statt sie innerlich abzuschreiben, zu verurteilen oder ihnen ihre Schuld nachzutragen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Exodus 33,15-23",
+          "passages": [ "Ex 33,15-23" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Mose bittet: „Lass mich deine Herrlichkeit sehen.“ Was lernen wir aus Gottes Antwort darüber, worin seine Herrlichkeit wirklich besteht?",
+          "applicationQuestion": "Wo stehen wir heute in der Gefahr, Gottes Segen, Auftrag oder Erfolg zu suchen, ohne zuerst nach Gottes Gegenwart zu fragen?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Gebet praktisch",
+      "memoryVerse": "„Hoffet auf ihn allezeit, liebe Leute, schüttet euer Herz vor ihm aus; Gott ist unsre Zuversicht.“ (Ps 62,9)",
+      "description": "In dieser Woche beleuchteten wir andere Beter, um darüber nachzudenken, wie wir das Gebet im Alltag intensivieren können.",
+      "startingQuestion": "Wofür bist du in der vergangenen Woche dankbar?",
+      "questions": [
+        {
+          "label": "1. Könige 19,11-12",
+          "passages": [ "1Kön 19,11-12" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Elias Erfahrung am Horeb lehrt uns, dass Gott oft in einem sanften, leisen Säuseln zu uns spricht – anstatt im spektakulären Sturm. Warum neigen wir dazu, Gottes Wirken nur in großen, sichtbaren Wundern zu suchen?",
+          "applicationQuestion": "Wie können wir lernen, wie Elia unter dem Ginsterstrauch, unsere völlige Hilflosigkeit einzugestehen und uns ganz auf die Zuversicht Gottes zu verlassen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Matthäus 6,5-6",
+          "passages": [ "Mt 6,5-6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Warum sollen wir beten, wenn doch alles gut ist?",
+          "applicationQuestion": "Was hilft dir konkret, innerlich vor Gott zur Ruhe zu kommen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Psalm 62,9; 2. Korinther 12,9",
+          "passages": [ "Ps 62,9", "2Kor 12,9" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Wenn Gott eine Bitte nicht so erfüllt, wie wir es erwarten, ist seine Gande dennoch groß. Wie helfen uns unsere ehrlichen Motive dabei, Hindernisse in unserem Gebetsleben zu identifizieren?",
+          "applicationQuestion": "Das Warten auf eine Antwort von Gott kann unser Vertrauen und unser Glaubensleben herausfordern. Wie bleiben wir geduldige Beter?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Daniel 9,4-5; Philipper 4,6",
+          "passages": [ "Dan 9,4-5", "Phil 4,6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Warum ist ein echtes Bekenntnis der Sünde, wie wir es bei Daniel sehen, die Voraussetzung für geistliche Erneuerung?",
+          "applicationQuestion": "Wahre Dankbarkeit bedeutet, Gott nicht nur für vergangene Hilfe, sondern auch im Voraus für seine zukünftigen Segnungen zu preisen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Matthäus 18,20",
+          "passages": [ "Mt 18,20" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Wie können wir beten, wenn uns nicht danach ist?",
+          "applicationQuestion": "Fasten dient als Mittel zur Demütigung der Seele und schafft einen empfänglichen Geisteszustand für göttliche Weisheit. Welche Rolle spielt diese Praxis heute in unseren Gemeinden?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Glauben haben",
+      "memoryVerse": "„Der Glaube aber ist eine Wirklichkeit dessen, was man hofft, ein Überzeugtsein von Dingen, die man nicht sieht.“ (Hb 11,1)",
+      "description": "Diese Woche erkundeten wir, wie man mit Zweifel und Unglauben umgeht.",
+      "startingQuestion": "Wie entsteht religiöser Glaube und wie schwindet er?",
+      "questions": [
+        {
+          "label": "Hebräer 11,1.6",
+          "passages": [ "Heb 11,1.6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Wie definiert der Hebräerbrief „Glaube“?",
+          "applicationQuestion": "Welche Vorbilder des Glaubens haben euch im Glaubensleben geprägt?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Markus 8,10-12",
+          "passages": [ "Mk 8,10-12" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Warum fordert Jesus wohl von den Pharisäern in dem Bibeltext kein weiteres Zeichen, obwohl er kurz zuvor ein großes Wunder getan hat?",
+          "applicationQuestion": "Was zeigt Jesu tiefes Seufzen über seinen Umgang mit Unglauben, religiöser Härte und verschlossenen Herzen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Epheser 2,8-9",
+          "passages": [ "Eph 2,8-9" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was verstehen wir unter „Gottes Gabe“?",
+          "applicationQuestion": "Welche Rolle spielt der Mensch, wenn es um Erlösung geht?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Lukas 7,1-10",
+          "passages": [ "Lk 7,1-10" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "„Sprich nur ein Wort“. Was erkennen wir hier über den Glauben des römischen Hauptmanns?",
+          "applicationQuestion": "Wo fällt es uns im Alltag schwer, Jesus wirklich zu vertrauen?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Sünde, das Evangelium und das Gesetz",
+      "memoryVerse": "„Ich will deine Befehle nimmermehr vergessen; denn du erquickst mich damit. Ich bin dein, hilf mir; denn ich suche deine Befehle.“ (Hb 119,93-94)",
+      "description": "Warum hat Gott uns sein Gesetz gegeben? Darüber und über die Wiederherstellung der Beziehung mit Gott haben wir uns in dieser Woche beschäftigt.",
+      "startingQuestion": "Wie stellst du dir eine Welt ohne Regeln vor?",
+      "questions": [
+        {
+          "label": "Römer 3,20; 1. Johannes 3,4",
+          "passages": [ "Röm 3,20", "1Joh 3,4" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Sünde wird in der Bibel als „Zielverfehlung“ beschrieben. Wie hilft uns das Gesetz dabei, dieses Ziel Gottes für unser Leben zu erkennen?",
+          "applicationQuestion": "Wie können wir im Alltag Gottes Gebote ernst nehmen, ohne in den Fehler zu geraten, uns durch Gehorsam vor Gott beweisen zu wollen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Markus 9,43-47; Matthäus 5,44",
+          "passages": [ "Mk 9,43-47", "Mt 5,44" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Jesus fordert uns auf, radikale Schritte zu unternehmen, wenn uns etwas zur Sünde verführt. Welche Dinge in unserem Leben könnten unsere Beziehung zu Gott stören?",
+          "applicationQuestion": "Wie verändert es unser geistliches Leben, wenn wir aktiv für diejenigen beten, die uns enttäuscht oder verletzt haben?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Römer 3,28; Galater 2,16; Matthäus 5,17",
+          "passages": [ "Röm 3,28", "Gal 2,16", "Mt 5,17" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Wie können wir die Zehn Gebote halten, ohne in die Falle des Legalismus zu tappen, bei dem wir versuchen, uns durch unsere Taten zu retten?",
+          "applicationQuestion": "Jesus sagte, er sei nicht gekommen, um das Gesetz aufzulösen, sondern um es zu erfüllen. Inwieweit vergrößert sein Tod am Kreuz unsere Wertschätzung für die Unveränderlichkeit des Gesetzes?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Johannes 17,3; Johannes 14,15; 1. Johannes 5,3",
+          "passages": [ "Joh 17,3", "Joh 14,15", "1Joh 5,3" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Jesus warnt davor, dass bloßes Reden über den Glauben nicht ausreicht (vgl. Mt 7,21). Was ist der entscheidende Unterschied zwischen dem Wissen über Gott und dem persönlichen Kennen Gottes?",
+          "applicationQuestion": "Warum ist Gehorsam die natürliche Frucht einer Liebesbeziehung zu Jesus und keine schwere Last?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Reue und Vergebung",
+      "memoryVerse": "„Wenn wir aber unsre Sünden bekennen, so ist er treu und gerecht, dass er uns die Sünden vergibt und reinigt uns von aller Ungerechtigkeit.“ (1 Joh 1,9)",
+      "description": "Thema dieser Woche war Reue und Vergebung und was die Heilige Schrift darüber lehrt.",
+      "startingQuestion": "Was denkst du, warum nehmen manche Menschen „Sünde“ auf die leichte Schulter?",
+      "questions": [
+        {
+          "label": "Lukas 10,41-42; Lukas 11,13",
+          "passages": [ "Lk 10,41-41", "Lk 11,13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Wie können wir in unserem oft hektischen Alltag – ähnlich wie Martha – erkennen, wann unsere „vielen Sorgen“ uns vom Wesentlichen (Gottes Willen) abhalten?",
+          "applicationQuestion": "Der Vater verspricht denen den Heiligen Geist, die ihn darum bitten. Wie können wir sensibler für die „leise, sanfte Stimme“ des Geistes werden, die uns vor Sünde bewahren kann?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Apostelgeschichte 3,19-20; Matthäus 6,14-15",
+          "passages": [ "Apg 3,19-20", "Mt 6,14-15" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Warum ist Umkehr und Hinwendung zu Gott die Voraussetzung zur Vergebung der Sünden?",
+          "applicationQuestion": "In welchem Verhältnis steht die Vergebung Gottes für mich zu meiner Vergebung anderen gegenüber?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Hosea 6,1-6",
+          "passages": [ "Hos 6,1-6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Das Volk Gottes wird aufgefordert zum HERRN zurückzukehren, weil er heilt, aufrichtet und Leben schenkt. Was zeigt dieser Abschnitt über Gottes Ziel mit Menschen, die schuldig geworden sind?",
+          "applicationQuestion": "Wie kann eine Gemeinde geistliche Beständigkeit fördern, sodass unser Glaube nicht wie „Tau“ verschwindet?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Matthäus 22,1-14",
+          "passages": [ "Mt 22,1-14" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Die eingeladenen Hochzeitsgäste reagieren unterschiedlich. Was zeigen diese Reaktionen darüber wie wir mit Gottes Einladung umgehen?",
+          "applicationQuestion": "Was bedeutet das Hochzeitsgewand praktisch und wie unterscheidet sich die Gerechtigkeit Christi von dem Versuch, vor Gott mit eigener Frömmigkeit bestehen zu wollen?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Rückschläge",
+      "memoryVerse": "„Nicht allein aber das, sondern wir rühmen uns auch der Bedrängnisse, weil wir wissen, dass Bedrängnis Geduld bringt, Geduld aber Bewährung, Bewährung aber Hoffnung, Hoffnung aber lässt nicht zuschanden werden; denn die Liebe Gottes ist ausgegossen in unsre Herzen durch den Heiligen Geist, der uns gegeben ist.“ (Röm 5,3-5)",
+      "description": "In dieser Woche haben wir uns mit Lebensherausforderungen beschäftigt. Wie können wir Rückschläge des Lebens mit Gottes Hilfe meistern?",
+      "startingQuestion": "Was ist dir lieber, ein langweiliges, reibungsloses Leben ohne Abenteuer oder ein Leben voller schmerzlicher Bedrängnisse, die dich prägen?",
+      "questions": [
+        {
+          "label": "Markus 4,35-41",
+          "passages": [ "Mk 4,35-41" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Jesus forderte seine Jünger auf, den See zu überqueren, obwohl er wusste, dass ein Sturm aufkommen würde. Warum wohl führt uns Gott manchmal absichtlich in Herausforderungen, anstatt uns vor ihnen zu bewahren?",
+          "applicationQuestion": "In dieser Geschichte schlief Jesus während des Sturms auf einem Kissen. Was lehrt uns seine Ruhe über das Vertrauen in Gott, wenn unsere Lebensumstände außer Kontrolle geraten?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Markus 5,25-34",
+          "passages": [ "Mk 5,25-34" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "In dieser Begebenheit berührt die Frau heimlich Jesu Gewand. Jesus bleibt stehen und fragt nach ihr. Warum lässt Jesus sie nicht einfach still davongehen?",
+          "applicationQuestion": "Jesus sagt: „Dein Glaube hat dich gerettet / geheilt.“ Was war nun der ausschlaggebende Punkt für ihre Heilung? Wovon wurde sie geheilt?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Hiob 1,21; 8,1-6",
+          "passages": [ "Hi 1,21", "Hi 8,1-6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Hiob verlor seinen Besitz, seine Kinder und seine Gesundheit, doch er behielt seinen Glauben an Gott. Wie können wir so standhaft bleiben? Warum war er so unbezwingbar?",
+          "applicationQuestion": "Hiobs Freunde deuteten sein Leid fälschlicherweise als Strafe für Sünde. Wie gehen wir biblisch korrekt damit um, wenn andere unseren Schmerz missverstehen?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Römer 5,1-5; 8,28",
+          "passages": [ "Röm 5,1-5", "Röm 8,28" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Paulus behauptet, dass Trübsal Geduld bewirkt. Hast du in deinem Leben schon einmal erlebt, dass ein schmerzhafter Rückschlag deinen Charakter gestärkt hat?",
+          "applicationQuestion": "Wie können wir die Verheißung aus Röm 8,28 mitten in einer Krise anwenden?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Sprich von Gott",
+      "memoryVerse": "„Gott der HERR hat mir eine Zunge gegeben, wie sie Jünger haben, dass ich wisse, mit den Müden zu rechter Zeit zu reden. Er weckt mich alle Morgen; er weckt mir das Ohr, dass ich höre, wie Jünger hören.“ (Jes 50,4)",
+      "description": "Thema dieser Woch war der Umgang mit den Mitmenschen.",
+      "startingQuestion": "Was kann ich tun, um eine angenehme Atmosphäre (zu Hause, auf der Arbeit / Schule oder Gemeinde) zu erzeugen?",
+      "questions": [
+        {
+          "label": "Apostelgeschichte 1,8; 4,13.20",
+          "passages": [ "Apg 1,8", "Apg 4,13.20" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Wie können wir sicherstellen, dass unser Zeugnis ein natürlicher Austausch unserer täglichen Gemeinschaft mit Christus ist, anstatt gezwungener Praxis?",
+          "applicationQuestion": "Welchen Einfluss hatten Petrus und Johannes auf diejenigen, die ihnen zuhörten? Wie ist das bei uns heute?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Petrus 3,18",
+          "passages": [ "2Pt 3,18" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Das Kapitel 3 im 2 Petrusbrief warnt vor Spöttern und geistlicher Gleichgültigkeit. Die Gemeinde soll deshalb nicht in Angst oder Spekulation leben. Wie geht das?",
+          "applicationQuestion": "Petrus fordert uns auf „in der Gnade und Erkenntnis“ Jesu zu wachsen. Woran erkenne ich, dass ich nicht nur mehr weiß über Jesus, sondern auch in der Beziehung zu ihm gewachsen bin?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Petrus 3,8-15",
+          "passages": [ "1Pt 3,8-15" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Petrus fordert uns auf „allesamt gleichgesinnt“ zu sein. Was meint er wohl damit und wie entsteht geistliche Einheit?",
+          "applicationQuestion": "Wie können wir mit unseren Mitmenschen über Gott reden? Teilt eure Erfahrungen!",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Jeremia 31,15-19",
+          "passages": [ "Jer 31,15-19" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Dieser Abschnitt gehört zu den Hoffnungskapiteln des Jeremiabuches. Welche Trostbotschaft erfahren diejenigen, deren Kinder oder Partner, Gott den Rücken gekehrt haben?",
+          "applicationQuestion": "Wie können wir „verlorene Töchter und Söhne“ ohne Scham und Vorwürfe in der Gemeinde begrüßen? Warum gelingt uns das nicht immer?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Bis in Ewigkeit",
+      "memoryVerse": "„Meine Lieben, wir sind schon Gottes Kinder; es ist aber noch nicht offenbar geworden, was wir sein werden. Wir wissen: Wenn es offenbar wird, werden wir ihm gleich sein; denn wir werden ihn sehen, wie er ist.“ (1 Joh 3,2)",
+      "description": "In dieser Woche erfuhren wir mehr über die Belohnung des Himmels, die Gott uns verspricht.",
+      "startingQuestion": "Stell dir vor, du machst einen Neuanfang. Fällt dir das leicht oder schwer? Warum?",
+      "questions": [
+        {
+          "label": "Matthäus 11,28",
+          "passages": [ "Mt 11,28" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Jesus lädt die Mühseligen und Beladenen zu sich ein. Woran erkennt man den Unterschied zwischen einem Glauben, den Menschen als Last empfinden und einem Glauben, der Ruhe und Frieden Gottes bringt?",
+          "applicationQuestion": "Wie können wir praktisch seinem Aufruf folgen – vor allem wegen der Last? Was hält uns oftmals davon ab?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Johannes 3,2",
+          "passages": [ "Mt 3,2" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Johannes sagt: „Jetzt sind wir Kinder Gottes“, aber auch „es ist noch nicht offenbar geworden.“ Vor welchen Extremen schützt uns diese Haltung womöglich?",
+          "applicationQuestion": "Die Hoffnung der Gläubigen ist zum einen im Himmel mit Christus zu sein, aber auch ihm immer ähnlicher zu werden. Wie geschieht diese Wiederherstellung des Bildes Gottes im Menschen praktisch?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Jesaja 25,8",
+          "passages": [ "Jes 25,8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Es heißt hier, dass Gott den Tod „auf ewig verschlingen“ wird. Warum muss der Tod zuerst komplett verschwinden, bevor die Gläubigen den Sieg empfangen? Welche Rolle spielt er Tod bei der Wiederkunft Christi und der Auferstehung der Gläubigen?",
+          "applicationQuestion": "Wie kann die Hoffnung, dass Gott einmal jede Träne abwischen wird, unseren heutigen Umgang mit Trauer, Verlust und Angst verändern?",
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Offenbarung 21,3.5",
+          "passages": [ "Off 21,3.5" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "„Das Zelt Gottes bei den Menschen“. Welche wertvolle Botschaft vermittelt uns diese Aussage, obwohl Gott heute omnipräsent (allgegenwärtig) ist?",
+          "applicationQuestion": "„Ich mache alles neu“ ist keine Reparatur, sondern ein Neuanfang. Was würdest du womöglich doch vermissen?",
+          "addedQuestions": [ "" ]
+        }
+      ]
+    }
+  ]
+}

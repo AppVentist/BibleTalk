@@ -1,0 +1,85 @@
+{
+  "title": "Jesus, mein Leben",
+  "period": "15 Einheiten",
+  "coverImage": "cover_juengerschaft.png",
+  "topics": [
+    {
+      "number": 1,
+      "title": "10 Merkmale wahrer Jüngerschaft",
+      "memoryVerse": "",
+      "description": "",
+      "startingQuestion": "",
+      "sections": [
+        {
+          "id": "e01_hinfuehrung",
+          "heading": "Einleitung",
+          "text": [
+            "Jüngerschaft steht im Zentrum des Wirkens Jesu. Von Beginn an rief Jesus Menschen dazu auf, ihm nachzufolgen, von ihm zu lernen und selbst andere zu Jüngern zu machen. Dieser Auftrag gilt bis heute.",
+            "Jüngerschaft ist deshalb kein Nebenthema des christlichen Glaubens, sondern eine grundlegende Voraussetzung für das Leben und den Auftrag der Gemeinde. Auch biblische Lehren und praktische Fragen des Glaubens- und Gemeindelebens werden am besten im Zusammenhang mit der Nachfolge Jesu verstanden.",
+            "Das Ziel eines Jüngerschaftskurses besteht daher nicht nur darin, Wissen zu vermitteln. Er soll Menschen helfen, in ihrer persönlichen Beziehung zu Jesus zu wachsen, seine Lehren im Alltag umzusetzen und schließlich andere Menschen auf ihrem Weg in die Nachfolge Jesu zu begleiten."
+          ],
+          "showNote":  false
+        },
+        {
+          "id": "e01_text",
+          "heading": "Was ist ein Jünger?",
+          "notePrompt": ""
+        },
+        {
+          "id": "e01_vertiefung",
+          "text": [
+            "Das griechische Wort für Jünger ist mathetes und bedeutet Schüler. Dieses Wort kommt, im Neuen Testament sehr häufig vor und beschreibt zunächst einmal einen entschiedenen Nachfolger eines Lehrers oder einer Gruppe. Ein Jünger war gewissermaßen wie ein Lehrling in längst vergangenen Zeiten. Er wurde beruflich ausgebildet, lebte in der Familie des Lehrmeisters, ging mit ihm zum Gottesdienst.",
+            "Im  Neuen  Testament  bezeichnet  der  Begriff  „Jünger“  an  vielen  Stellen  die  12  Apostel. Lies Markus 3,13-15 und suche aus diesen Versen 3 wichtige Merkmale dessen heraus, was Jüngerschaft bei den 12 Jüngern Jesu ausmachte."
+          ]
+        },
+        {
+          "id": "e01_vorsatz",
+          "passages": [ "Mar 3,13-15" ],                     
+          "notePrompt": "Welche drei Aspekte werden hier genannt?"
+        }
+      ]      
+    },
+    {
+      "number": 2,
+      "title": "Bewacht ihn so gut ihr könnt",
+      "memoryVerse": "„Er sagte ihnen aber ein Gleichnis davon, dass man allezeit beten und nicht laß werden solle.“ (Lukas 18,1)",
+      "description": "Jesus erzählt von einer Witwe, die keinerlei Druckmittel hat außer ihrer Hartnäckigkeit. Das Gleichnis beantwortet nicht die Frage, warum Gott wartet – aber es sagt, was man in der Zwischenzeit tut.",
+      "startingQuestion": "Wie gehst du damit um, wenn eine Sache lange keine Fortschritte macht?",
+      "questions": [
+        {
+          "label": "Lukas 18,1-8",
+          "passages": [ "Lk 18,1-8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [
+            "Der Richter wird ausdrücklich als ungerecht beschrieben. Was will Jesus mit diesem Vergleich gerade nicht sagen?"
+          ],
+          "applicationQuestion": [
+            "Gibt es etwas, für das du früher gebetet hast und inzwischen aufgehört hast?"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Dankbarkeit ist etwas sehr seltenes",
+      "memoryVerse": "„Er sagte ihnen aber ein Gleichnis davon, dass man allezeit beten und nicht laß werden solle.“ (Lukas 18,1)",
+      "description": "Jesus erzählt von einer Witwe, die keinerlei Druckmittel hat außer ihrer Hartnäckigkeit. Das Gleichnis beantwortet nicht die Frage, warum Gott wartet – aber es sagt, was man in der Zwischenzeit tut.",
+      "startingQuestion": "Wie gehst du damit um, wenn eine Sache lange keine Fortschritte macht?",
+      "questions": [
+        {
+          "label": "Lukas 18,1-8",
+          "passages": [ "Lk 18,1-8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [
+            "Der Richter wird ausdrücklich als ungerecht beschrieben. Was will Jesus mit diesem Vergleich gerade nicht sagen?"
+          ],
+          "applicationQuestion": [
+            "Gibt es etwas, für das du früher gebetet hast und inzwischen aufgehört hast?"
+          ]
+        }
+      ]
+    }
+  ]
+}

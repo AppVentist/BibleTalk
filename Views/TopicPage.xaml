@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:BibleTalk.ViewModels"
+             xmlns:models="clr-namespace:BibleTalk.Models"
+             x:Class="BibleTalk.Views.TopicPage"
+             x:DataType="vm:TopicViewModel"
+             Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- Header: Cover des Hefts mit Back- und Share-Button.
+             Bewusst AUSSERHALB der CarouselView, damit die Buttons
+             nicht mit Scroll- und Swipe-Gesten konkurrieren. -->
+        <Grid Grid.Row="0" HeightRequest="220">
+            <Image
+                Source="{Binding CoverImage}"
+                Aspect="AspectFill"
+                Shadow="Gray 8 8"/>
+            <Button
+                Text=""
+                FontSize="22"
+                ImageSource="btn_left_white.png"
+                WidthRequest="55"
+                HeightRequest="55"
+                CornerRadius="33"
+                BackgroundColor="#80000000"
+                TextColor="White"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                Margin="15,15,0,0"
+                Clicked="OnBackClicked"/>
+            <Button
+                Text=""
+                ImageSource="btn_share.png"
+                BackgroundColor="#80000000"
+                WidthRequest="55"
+                HeightRequest="55"
+                CornerRadius="33"
+                HorizontalOptions="End"
+                VerticalOptions="Start"
+                Margin="0,15,15,0"
+                Clicked="OnShareClicked"/>
+        </Grid>
+
+        <!-- Wischbares Karussell über alle Themen des Hefts.
+             Jedes Item bringt seine eigene ScrollView mit. -->
+        <CarouselView
+            Grid.Row="1"
+            x:Name="TopicsCarousel"
+            ItemsSource="{Binding Topics}"
+            CurrentItem="{Binding CurrentTopic, Mode=TwoWay}"
+            PositionChanged="OnTopicPositionChanged"
+            Loop="False">
+
+            <CarouselView.ItemTemplate>
+                <DataTemplate x:DataType="vm:TopicItemViewModel">
+
+                    <ScrollView>
+                        <VerticalStackLayout Padding="20,15" Spacing="12">
+                            <Label
+                                Text="{Binding NumberLabel}"
+                                FontSize="14"
+                                TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
+                            <Label
+                                Text="{Binding Title}"
+                                FontSize="24"
+                                FontAttributes="Bold"/>
+                            <Label
+                                Text="Merkvers"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                Margin="0,10,0,0"
+                                IsVisible="{Binding HasMemoryVerse}"/>
+                            <Label
+                                Text="{Binding MemoryVerse}"
+                                FontSize="15"
+                                FontAttributes="Italic"
+                                IsVisible="{Binding HasMemoryVerse}"/>
+                            <Label
+                                Text="Einführung"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                Margin="0,10,0,0"
+                                IsVisible="{Binding HasDescription}"/>
+                            <Label
+                                Text="{Binding Description}"
+                                FontSize="15"
+                                IsVisible="{Binding HasDescription}"/>
+
+                            <!-- Startfrage -->
+                            <Grid ColumnDefinitions="Auto,*"
+                                  RowDefinitions="Auto,Auto"
+                                  ColumnSpacing="10"
+                                  IsVisible="{Binding HasStartingQuestion}">
+                                <BoxView
+                                    Color="{AppThemeBinding Light={StaticResource LightAccent}, Dark={StaticResource DarkAccent}}"
+                                    CornerRadius="2"
+                                    VerticalOptions="Fill"
+                                    HorizontalOptions="Start"
+                                    Grid.Column="0"
+                                    Grid.Row="0"
+                                    Grid.RowSpan="2"
+                                    WidthRequest="4"/>
+                                <Label
+                                    Text="Startfrage"
+                                    TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}"
+                                    FontSize="16"
+                                    FontAttributes="Bold"
+                                    Grid.Column="1"
+                                    Grid.Row="0"/>
+                                <Label
+                                    Text="{Binding StartingQuestion}"
+                                    FontSize="15"
+                                    FontAttributes="Bold"
+                                    Grid.Column="1"
+                                    Grid.Row="1"/>
+                            </Grid>
+
+                            <!-- Verweis auf die aufklappbaren Bibelfragen -->
+                            <Button
+                                Text="{Binding ActionLabel}"
+                                Margin="0,15,0,0"
+                                IsVisible="{Binding HasContent}"
+                                Command="{Binding OpenQuestionsCommand}"
+                                BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkButton}}"
+                                Shadow="Gray 4 4"/>
+                        </VerticalStackLayout>
+                    </ScrollView>
+
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </Grid>
+</ContentPage>

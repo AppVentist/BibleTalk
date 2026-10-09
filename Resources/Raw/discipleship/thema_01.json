@@ -1,0 +1,110 @@
+{
+  // title, period, coverImage beschreiben die Serie; wird über discipleship/index.json gefunden; > Model/Series.cs verwaltet sie > Anzeige auf MainPage + Kopf der SeriesPage
+  "title": "Jüngerschaft",
+  "period": "17 Einheiten",
+  "coverImage": "img_bible_study_group.png",    
+  "topics": [
+    {
+      // topics beschreiben die einzelnen Einheiten der Serie;
+      // topics[].number/title/memoryVerse/description/startingQuestion > Model/Topic.cs > TopicPage
+      "number": 1,
+      "title": "Wer ist Jesus für mich?",
+      "memoryVerse": "„Er sprach zu ihnen: Wer sagt denn ihr, dass ich sei?“ (Matthäus 16,15)",
+      "description": "Nachfolge beginnt nicht mit einer Regel, sondern mit einer Person. Bevor Jesus seine Jünger in den Dienst schickt, stellt er ihnen eine einzige Frage – und die Antwort darauf trägt alles Weitere.",
+      "startingQuestion": "Wann hast du zum ersten Mal bewusst über Jesus nachgedacht?",
+
+      // Lehrabschnitte im Fließtext-Format.
+      // SOBALD "sections" gefüllt ist, öffnet die App die LessonPage > Model/LessionSection.cs,
+      // ANSONSTEN öffnet die QuestionsPage mit den Fragen!      
+      // Die "id" ist der Schlüssel der gespeicherten Notiz - bitte nie ändern.
+      "sections": [
+        {
+          "id": "e01_hinfuehrung",
+          "heading": "Die Frage vor allen Fragen",
+          "text": [
+            "Jesus stellt seinen Jüngern diese Frage nicht am Anfang ihrer gemeinsamen Zeit, sondern nach Monaten des Miteinanders. Sie haben ihn predigen hören, sie haben ihn heilen sehen, sie waren dabei, als er müde war. Erst danach fragt er.",
+            "Das ist bemerkenswert: Nachfolge beginnt nicht mit einem Bekenntnis, sondern mündet in eines. Wer Jesus kennenlernen will, muss ihn erst eine Weile begleiten."
+          ],
+          "showNote": false
+        },
+        {
+          "id": "e01_text",
+          "heading": "Der Bibeltext",
+          "text": [
+            "Achte beim Lesen darauf, wie Jesus die Frage zweistufig stellt - erst nach der Meinung der Leute, dann nach der Meinung der Jünger."
+          ],
+          "passages": [ "Mt 16,13-20" ],
+          "notePrompt": "Was fällt dir beim Lesen als Erstes auf?"
+        },
+        {
+          "id": "e01_vertiefung",
+          "heading": "Zum Nachdenken",
+          "text": [
+            "Petrus antwortet nicht mit dem, was er gehört hat, sondern mit dem, was er erkannt hat. Jesus nennt genau das den Felsen, auf dem er bauen will.",
+            "Zwischen einer richtigen Auskunft über Jesus und einem eigenen Bekenntnis zu ihm liegt ein Unterschied, den man niemandem abnehmen kann."
+          ],
+          "notePrompt": "Wie würdest du heute mit eigenen Worten auf Jesu Frage antworten?"
+        },
+        {
+          "id": "e01_vorsatz",
+          "heading": "Für die kommende Woche",
+          "text": [
+            "Nimm dir vor, die Frage aus Vers 15 einmal täglich bewusst zu beantworten - nicht theologisch, sondern persönlich."
+          ],
+          "notePrompt": "Mein Vorsatz für diese Woche"
+        }
+      ],
+      // Dieser Abschnitt wird nicht beachtet, solange "sections" ausgefüllt ist
+      // ANSONSTEN greift "questions" und ruft QuestionsPage (nur Fragen + Bibeltext) auf
+      "questions": [
+        {
+          "label": "Matthäus 16,13-20",
+          "passages": [ "Mt 16,13-20" ],
+          "bibleQuestion": [
+            "Warum fragt Jesus zuerst nach der Meinung der Leute und erst danach nach der Meinung seiner Jünger?",
+            "Was unterscheidet Petrus' Antwort von dem, was die Leute über Jesus sagen?"
+          ],
+          "applicationQuestion": [
+            "Wie würdest du heute mit eigenen Worten auf Jesu Frage antworten?"
+          ],
+          "addedQuestions": [
+            "Jesus verbietet den Jüngern zunächst, davon weiterzuerzählen. Warum könnte er das getan haben?"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Der Ruf in die Nachfolge",
+      "memoryVerse": "„Wer seine Hand an den Pflug legt und sieht zurück, der ist nicht geschickt für das Reich Gottes.“ (Lukas 9,62)",
+      "description": "Drei Menschen begegnen Jesus auf dem Weg, und jeder von ihnen bringt einen Vorbehalt mit. Jesus geht auf keinen davon ein – nicht aus Härte, sondern weil Nachfolge keine Nebenbeschäftigung ist.",
+      "startingQuestion": "Was hält Menschen deiner Erfahrung nach am häufigsten davon ab, eine Entscheidung zu treffen?",
+      "questions": [
+        {
+          "label": "Lukas 9,57-62",
+          "passages": [ "Lk 9,57-62" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [
+            "Die drei Einwände klingen alle vernünftig. Was haben sie gemeinsam?"
+          ],
+          "applicationQuestion": [
+            "Welchen „erst noch“-Vorbehalt kennst du bei dir selbst?"
+          ]
+        },
+        {
+          "label": "Johannes 1,35-42",
+          "passages": [ "Joh 1,35-42" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [
+            "Jesus antwortet auf die Frage der beiden Jünger mit einer Einladung statt mit einer Erklärung. Was sagt das über den Anfang von Nachfolge?"
+          ],
+          "applicationQuestion": [
+            "Andreas holt als Erstes seinen Bruder. Wen würdest du mitbringen wollen?"
+          ]
+        }
+      ]
+    }
+  ]
+}

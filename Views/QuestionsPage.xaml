@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:BibleTalk.ViewModels"
+             xmlns:models="clr-namespace:BibleTalk.Models"
+             xmlns:controls="clr-namespace:BibleTalk.Views.Controls"
+             x:Class="BibleTalk.Views.QuestionsPage"
+             x:DataType="vm:QuestionsViewModel"
+             Shell.NavBarIsVisible="False">
+
+    <!-- Fokus-Modus: eine Frage pro Bildschirm.
+         Kopfzeile und Steuerung liegen bewusst AUSSERHALB der CarouselView,
+         damit die Buttons nicht mit der Wischgeste konkurrieren. -->
+    <Grid RowDefinitions="Auto,*,Auto">
+
+        <!-- Kopfzeile: Schließen, Fortschrittsbalken, Zähler -->
+        <Grid Grid.Row="0"
+              ColumnDefinitions="Auto,*,Auto,Auto"
+              ColumnSpacing="12"
+              Padding="16,14,16,10"
+              VerticalOptions="Center">
+
+            <Label Grid.Column="0"
+                   Text="&#x2715;"
+                   FontSize="20"
+                   TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"
+                   VerticalTextAlignment="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding CloseCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+            <ProgressBar Grid.Column="1"
+                         Progress="{Binding Progress}"
+                         ProgressColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}"
+                         BackgroundColor="{AppThemeBinding Light={StaticResource LightSurfaceVariant}, Dark={StaticResource DarkSurfaceVariant}}"
+                         HeightRequest="4"
+                         VerticalOptions="Center"/>
+
+            <Label Grid.Column="2"
+                   Text="{Binding ProgressLabel}"
+                   FontSize="13"
+                   TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"
+                   VerticalTextAlignment="Center"/>
+            <Image Source="img_adventist_logo.png"
+                   Grid.Column="3"
+                   VerticalOptions="End"
+                   HeightRequest="25"
+                   WidthRequest="25"/>
+        </Grid>
+
+        <!-- Hinweis, falls das Thema keine Fragen enthält -->
+        <Label Grid.Row="1"
+               Text="Die Inhalte werden demnächst veröffentlicht."
+               FontSize="15"
+               TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"
+               Padding="24"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               IsVisible="{Binding IsEmpty}"/>
+
+        <!-- Wischbares Karussell über alle Einzelfragen des Themas -->
+        <CarouselView Grid.Row="1"
+                      ItemsSource="{Binding Steps}"
+                      Position="{Binding CurrentIndex, Mode=TwoWay}"
+                      IsVisible="{Binding HasSteps}"
+                      PeekAreaInsets="0"
+                      Loop="False">
+
+            <CarouselView.ItemTemplate>
+                <DataTemplate x:DataType="vm:QuestionStepViewModel">
+
+                    <ScrollView>
+                        <VerticalStackLayout Padding="24,10,24,20" Spacing="0">
+
+                            <!-- z. B. "Abschnitt 2 · Anwendungsfrage" -->
+                            <Label Text="{Binding SectionHeader}"
+                                   FontSize="13"
+                                   TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
+
+                            <!-- Bibelstelle des Abschnitts -->
+                            <Label Text="{Binding ReferenceDisplay}"
+                                   FontSize="15"
+                                   FontAttributes="Bold"
+                                   TextColor="{Binding KindColor}"
+                                   Margin="0,12,0,0"/>
+
+                            <!-- Die Frage selbst – dominiert die Seite.
+                                 Links oben davor das Kreis-Label mit der
+                                 fortlaufenden Nummer über alle Fragen. -->
+                            <Grid ColumnDefinitions="Auto,*"
+                                  ColumnSpacing="12"
+                                  Margin="0,14,0,0">
+
+                                <Border Grid.Column="0"
+                                        WidthRequest="32"
+                                        HeightRequest="32"
+                                        Padding="0"
+                                        Stroke="Transparent"
+                                        StrokeThickness="0"
+                                        BackgroundColor="{Binding KindColor}"
+                                        StrokeShape="RoundRectangle 16"
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Start">
+                                    <Label Text="{Binding Number}"
+                                           FontSize="15"
+                                           FontAttributes="Bold"
+                                           TextColor="White"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"
+                                           HorizontalTextAlignment="Center"
+                                           VerticalTextAlignment="Center"/>
+                                </Border>
+
+                                <Label Grid.Column="1"
+                                       Text="{Binding Text}"
+                                       FontSize="20"
+                                       FontAttributes="Bold"
+                                       LineHeight="1.35"
+                                       VerticalOptions="Start"/>
+                            </Grid>
+
+                            <!-- Notizfeld. Mode=TwoWay ist zwingend -
+                            ohne passiert stillschweigend nichts. -->
+                            <VerticalStackLayout Spacing="6"
+                                 Margin="0,20,0,0"
+                                 IsVisible="{Binding ShowNote}">
+
+                                <Label Text="{Binding NotePrompt}"
+                                   FontSize="13"
+                                   FontAttributes="Bold"
+                                   TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
+
+                                <Border Padding="4,0"
+                                    Stroke="{AppThemeBinding Light={StaticResource LightOutline}, Dark={StaticResource DarkOutline}}"
+                                    StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 10">
+
+                                    <Editor Text="{Binding Note, Mode=TwoWay}"
+                                        Placeholder="Hier schreiben …"
+                                        AutoSize="TextChanges"
+                                        MinimumHeightRequest="90"
+                                        FontSize="15"
+                                        BackgroundColor="Transparent"/>
+                                </Border>
+                            </VerticalStackLayout>
+
+                            <!-- Bibeltext-Karte: liegt in
+                                 Views/Controls/BibleTextCard.xaml -->
+                            <controls:BibleTextCard Margin="0,24,0,0"/>
+
+                            
+
+                        </VerticalStackLayout>
+                    </ScrollView>
+
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <!-- Steuerung: zurück (rund) und weiter (breit) -->
+        <Grid Grid.Row="2"
+              ColumnDefinitions="Auto,*"
+              ColumnSpacing="12"
+              Padding="24,8,24,16"
+              IsVisible="{Binding HasSteps}">
+
+            <Button Grid.Column="0"
+                    Text="&#x2039;"
+                    FontSize="24"
+                    WidthRequest="48"
+                    HeightRequest="48"
+                    CornerRadius="24"
+                    Padding="0"
+                    BackgroundColor="Transparent"
+                    TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}"
+                    BorderColor="{AppThemeBinding Light={StaticResource LightOutline}, Dark={StaticResource DarkOutline}}"
+                    BorderWidth="1"
+                    Command="{Binding PreviousCommand}" />
+
+            <Button Grid.Column="1"
+                    Text="{Binding NextButtonText}"
+                    FontSize="16"
+                    HeightRequest="48"
+                    CornerRadius="24"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkButton}}"
+                    TextColor="White"
+                    Command="{Binding NextCommand}"
+                    Shadow="Gray 4 4"/>
+        </Grid>
+    </Grid>
+</ContentPage>

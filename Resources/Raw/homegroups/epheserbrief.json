@@ -1,0 +1,56 @@
+{
+  "title": "Epheserbrief",
+  "period": "13 Einheiten",
+  "coverImage": "cover_epheser.png",
+  "topics": [
+    {
+      "number": 1,
+      "title": "Lobpreis Gottes für die Erlösung durch Christus",
+      "memoryVerse": "„“ (Apostelgeschichte 2,42)",
+      "description": "",
+      "startingQuestion": "",
+      "questions": [
+        {
+          "label": "Apostelgeschichte 2,42-47",
+          "passages": [ "Apg 2,42-47" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [
+            "",
+            ""
+          ],
+          "applicationQuestion": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Gebet um Erkenntnis der Herrlichkeit Christi",
+      "memoryVerse": "„“ (Römer 12,4)",
+      "description": "",
+      "startingQuestion": "",
+      "questions": [
+        {
+          "label": "Römer 12,3-13",
+          "passages": [ "Röm 12,3-13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [
+            ""
+          ],
+          "applicationQuestion": [ "" ]
+        },
+        {
+          "label": "1. Korinther 12,12-20",
+          "passages": [ "1Kor 12,12-20" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [
+            ""
+          ],
+          "applicationQuestion": [ "" ]
+        }
+      ]
+    }
+  ]
+}

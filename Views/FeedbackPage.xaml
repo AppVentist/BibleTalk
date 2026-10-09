@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibleTalk.Views.FeedbackPage"
+             Title="Feedback">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Image
+            Source="img_feedback.png" />
+        <Label
+            Text="Feedback willkommen"            
+            HorizontalTextAlignment="Center"
+            FontSize="22"
+            FontAttributes="Bold" />        
+        <Label
+            Text="Hast du Anregungen, Fragen oder ist dir ein Fehler aufgefallen? Schreib uns gerne eine Nachricht."
+            FontSize="16" />        
+        <Button
+            Text="E-Mail senden"
+            Clicked="OnSendFeedback_Clicked"
+            HorizontalOptions="Fill"            
+            BackgroundColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkButton}}"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="BibleTalk.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BibleTalk"
+    xmlns:views="clr-namespace:BibleTalk.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <!-- Title View, um Titeltext individuell zu bearbeiten -->
+    <Shell.TitleView>
+        <Grid ColumnDefinitions="Auto, Auto, *">
+            <Label
+                Text="BibleTalk"
+                FontSize="30"
+                FontAttributes="Bold"
+                Padding="0,0"
+                VerticalTextAlignment="Center" />
+            <!-- Textcolor="#2E5797" -->
+            <!-- Tippen auf das Logo führt zurück zur Heft-Übersicht (MainPage) -->
+            <Image 
+                Source="logo.png"
+                Grid.Column="2"
+                HeightRequest="60"
+                WidthRequest="60"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+                Margin="0,0,15,0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLogoTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+    </Shell.TitleView>
+
+    <!--<ShellContent
+        Title="BibleTalk"
+        ContentTemplate="{DataTemplate views:MainPage}"
+        Route="MainPage" />
+    <MenuItem
+        Text="Feedback willkommen"
+        Clicked="OnFeedbackClicked"
+        IconImageSource="logo.png" />
+    <MenuItem
+        Text="App teilen"
+        Clicked="OnShareClicked"
+        IconImageSource="logo.png" />-->
+
+
+    <TabBar>
+        <Tab Title="Home" Icon="btn_home.png">            
+            <ShellContent                    
+                ContentTemplate="{DataTemplate views:MainPage}"
+                Route="MainPage" />            
+        </Tab>
+        <Tab Title="Feedback" Icon="btn_like.png">
+            <ShellContent
+                ContentTemplate="{DataTemplate views:FeedbackPage}"
+                Route="FeedbackPage" />
+        </Tab>
+        <Tab Title="Einstellungen" Icon="btn_settings.png">
+            <ShellContent
+                ContentTemplate="{DataTemplate views:SettingsPage}"
+                Route="SettingsPage"/>
+        </Tab>        
+    </TabBar>
+
+</Shell>

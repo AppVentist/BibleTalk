@@ -1,0 +1,624 @@
+{
+  "title": "Die Korintherbriefe",
+  "period": "JUL | AUG | SEP 2026",
+  "coverImage": "cover3.jpg",
+  "topics": [
+    {
+      "number": 1,
+      "title": "Der Dienst von Paulus in Korinth",
+      "memoryVerse": "„Es sprach aber der Herr durch eine Erscheinung in der Nacht zu Paulus: Fürchte dich nicht, sondern rede und schweige nicht! Denn ich bin mit dir, und niemand soll sich unterstehen, dir zu schaden; denn ich habe ein großes Volk in dieser Stadt.“ (Apg 18,9-10)",
+      "description": "Paulus steht in Korinth vor Herausforderungen, begegnet der Gemeinde jedoch mit der Botschaft des Kreuzes (1 Kor 2,2). Treue zu dieser Botschaft ist auch der Weg, um den Herausforderungen zu begegnen, denen wir heute gegenüberstehen. Wie wir diese Woche und im Laufe dieses Quartals sehen werden, gilt die Botschaft des 1. und 2. Korintherbriefes auch für unser Leben.",
+      "startingQuestion": "Wie gehst du mit Widerständen in deinem Leben um?",
+      "questions": [
+        {
+          "label": "1. Korinther 1,1; Galater 1,1",
+          "passages": [ "1Kor 1,1", "Gal 1,1" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "In den Bibeltexten betont Paulus, dass seine Berufung von Gott kommt. Woher konnte sich Paulus seiner Berufung so sicher sein? Worin liegt der Unterschied zwischen Beruf (Zeltmacher) und Berufung (Apostel) bei Paulus?",
+          "applicationQuestion": "Wie können wir heute die Handlungen in der Gemeinde unterscheiden, zwischen selbsternannter Initiative oder göttlicher Berufung?"
+        },
+        {
+          "label": "Apostelgeschichte 18,1-4; 1. Korinther 5,9-13",
+          "passages": [ "Apg 18,1-4", "1Kor 5,9-13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Korinth muss ein Zentrum für Handel und extreme Unmoral und Götzendienst gewesen sein. Vor welcher Herausforderung stand Paulus?",
+          "applicationQuestion": "Mission nach außen und geistlicher Ordnung nach innen (Gemeinde). Wie lässt sich diese Spannung vereinbaren? Wie gehen wir in der Gemeinde mit Menschen um, die geistlich / moralisch gefallen sind?"
+        },
+        {
+          "label": "Apostelgeschichte 18,5-11; Jesauja 41,10",
+          "passages": [ "Apg 18,5-11", "Jes 41,10" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Paulus bekommt Unterstützung. Doch wie reagierte er auf Widerstand?",
+          "applicationQuestion": "Wie können wir in unserem Alltag Beruf und das ewige Evangelium angemessen verkündigen? Wie gehst du mit Widerständen um?"
+        },
+        {
+          "label": "1. Korinther 4,14",
+          "passages": [ "1Kor 4,14" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Worin unterscheidet sich Ermahnung von Beschämung?",
+          "applicationQuestion": "Wie können wir heute jemanden liebevoll ermahnen – ohne ihn bloßzustellen?"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Die Botschaft vom Kreuz",
+      "memoryVerse": "„Denn das Wort vom Kreuz ist eine Torheit denen, die verloren werden; uns aber, die wir selig werden, ist es Gottes Kraft.“ (1 Kor 1,18)",
+      "description": "In dieser Woche haben wir uns der kraftvollen Botschaft des Kreuzes als Antwort auf dieses Problem der Spaltungen in der Gemeinde und weiteren Schwierigkeiten in Korinth zugewandt.",
+      "startingQuestion": "Wie gehen wir grundsätzlich mit Zurechtweisungen um, die an uns gerichtet werden? Und warum ist das wohl so?",
+      "questions": [
+        {
+          "label": "1. Korinther 1,18-21",
+          "passages": [ "1Kor 1,18-21" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Manche Menschen halten das Evangelium Jesu („Wort vom Kreuz“) für unsinnig, für andere wird es zum Lebensmittelpunkt. Welche unterschiedlichen Auswirkungen zeigt uns Paulus hier auf?",
+          "applicationQuestion": "Warum hat wohl Gott das Kreuz – ein Zeichen von Schwäche und Schande in der Antike – ausgesucht, um seine Weisheit und Kraft zu offenbaren? Welche Stärke vermittelt uns das Kreuz Jesu?"
+        },
+        {
+          "label": "1. Korinther 1,22-25",
+          "passages": [ "1Kor 1,22-25" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Der aufgeklärte Mensch fragt nach Zeichen und menschlicher Weisheit. Paulus predigt jedoch den gekreuzigten Christus. Auf welche philosophischen Sinnfragen gibt die Botschaft vom Kreuz womöglich Antworten? Warum genügen diese Antworten manchen Menschen nicht?",
+          "applicationQuestion": "Welche Rolle spielt die menschliche Vernunft im Glaubensleben und in welcher Beziehung steht sie zum Glauben? Welche Gefahren birgt sie?"
+        },
+        {
+          "label": "1. Korinther 1,26-31",
+          "passages": [ "1Kor 1,26-31" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Paulus betont, Gott erwählt in Korinth unscheinbare, schwache und gesellschaftlich gering angesehene Menschen. Warum tut Gott das wohl?",
+          "applicationQuestion": "Was macht einen Christen bedeutsam? Worauf können Christen stolz sein?"
+        },
+        {
+          "label": "Apostelgeschichte 13,26-33",
+          "passages": [ "Apg 13,26-33" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Welche Botschaft des Kreuzes verkündigt Paulus in Antiochia?",
+          "applicationQuestion": "Was hindert uns daran, diese Botschaft in unserem Umfeld weiterzugeben?"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Einheit in Christus",
+      "memoryVerse": "„Ich ermahne euch aber, Brüder und Schwestern, im Namen unseres Herrn Jesus Christus, dass ihr alle mit einer Stimme redet; und lasst keine Spaltungen unter euch sein, sondern haltet aneinander fest in einem Sinn und in einer Meinung.“ (1 Kor 1,10)",
+      "description": "In dieser Woche warfen wir einen Blick auf 1 Kor 1 bis 4, wo der Apostel Paulus das Problem der Streitigkeiten in der Gemeinde behandelt.",
+      "startingQuestion": "Wir leben in einer „Ellenbogengesellschaft“. Was treibt den Menschen dazu an?",
+      "questions": [
+        {
+          "label": "1. Korinther 1,11-13; 2. Korinther 12,20-21",
+          "passages": [ "1Kor 1,11-13", "2Kor 12,20-21" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Eine gesunde Streitkultur kann nützlich sein. Welches Problem führte zum Streit in Korinth und was war womöglich die Ursache dafür?",
+          "applicationQuestion": "Auch in der Adventgemeinde gibt es selbsternannte „Verkündiger des Evangeliums“. Wodurch unterscheiden sie sich? Was können wir tun, wenn Sympathien für bestimmte Prediger, Leiter oder theologische Richtungen beginnen, die Gemeinde zu spalten?"
+        },
+        {
+          "label": "1. Korinther 1,10; 4,1-2",
+          "passages": [ "1Kor 1,10", "1Kor 4,1-2" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was meint wohl Paulus damit, wenn er die Korinther aufforderte, mit „einer Stimme zu reden und keine Spaltungen zuzulassen“? Ist das nicht zu einseitig?",
+          "applicationQuestion": "Das Wort katartizō (fest aneinanderhalten) beschreibt das „Wiederherstellen“ von zerbrochenen Beziehungen. Wie können wir in unserer Gemeinde aktiv dazu beitragen, diese Einheit wieder herzustellen?"
+        },
+        {
+          "label": "Philipper 2,5-8",
+          "passages": [ "Phil 2,5-8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "In den Versen davor (1-4) warnt Paulus vor Selbstsucht, Geltungsdrang und Überheblichkeit und fordert die Gläubigen stattdessen auf, wie Jesus gesinnt zu sein. Wie könnte man wohl diese Lebenshaltung (Christi Gesinnung) beschreiben?",
+          "applicationQuestion": "Wie können wir lernen, den anderen höher zu achten als uns selbst?"
+        },
+        {
+          "label": "Epheser 4,11-14",
+          "passages": [ "Eph 4,11-14" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Paulus betont die Einheit der Gemeinde und listet verschiedene Dienste auf. Welche Funktion haben diese Dienste in der Gemeinde und was würde passieren, wenn jemand seinen Dienst nicht ausführt?",
+          "applicationQuestion": "Welche triftigen Gründe könnte jemand haben, diese Einheit der Gemeinde zu behindern?"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Sünde in der Gemeinde",
+      "memoryVerse": "„Oder wisst ihr nicht, dass euer Leib ein Tempel des Heiligen Geistes ist, der in euch ist und den ihr von Gott habt, und dass ihr nicht euch selbst gehört? Denn ihr seid teuer erkauft; darum preist Gott mit eurem Leibe.“ (1 Kor 6,19-20)",
+      "description": "In dieser Woche haben wir betrachtet, wie Paulus sich Themen mit sexueller Unmoral, Gerichtsverfahren, Prostitution, Ehe und Singeldasein zuwendet (1 Kor 5-7). Doch vor allem wollen wir betrachten, wie Paulus mit diesen Sünden in der Gemeinde umgeht und welche Lehren wir für uns heute daraus ziehen können!",
+      "startingQuestion": "Welche Rolle spielt Selbstbeherrschung im christlichen Glauben?",
+      "questions": [
+        {
+          "label": "1. Korinther 5,1-5",
+          "passages": [ "1Kor 5,1-5" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Paulus ist bestürzt darüber, dass die Gemeinde in Korinth den Inzest-Fall toleriert. Wie konnte es wohl – in einer vom Hl. Geist geleiteten Gemeinde – dazu kommen?",
+          "applicationQuestion": "Wie kann ein Mensch „gerettet werden am Tage des Herrn“, obwohl er dem Satan übergeben wurde? Was mag das wohl bedeuten?"
+        },
+        {
+          "label": "1. Korinther 5,12-13",
+          "passages": [ "1Kor 5,12-13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Wozu fordert uns Paulus hier auf? Welche Handhabung hat eine Gemeinde heute ausgelebte Sünde „aus der Mitte zu verstoßen“?",
+          "applicationQuestion": "Wo liegt der Unterschied zwischen biblisch-korrigierender Seelsorge und selbstgerechtem Verurteilen eines Menschen?"
+        },
+        {
+          "label": "1. Korinther 6,19-20",
+          "passages": [ "1Kor 6,19-20" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "„Wir sind ein Tempel des Heiligen Geistes“. Was möchte wohl Paulus damit zum Ausdruck bringen? Warum vergleicht er den Körper mit dem Tempel?",
+          "applicationQuestion": "Welche praktischen Auswirkungen hat diese Botschaft für unseren Umgang mit dem Körper physisch, psychisch und sozial?"
+        },
+        {
+          "label": "1. Thessalonicher 4,3-8",
+          "passages": [ "1Thess 4,3-8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": "Was ist Heiligung? Welche konkreten Merkmale eines geheiligten Lebens nennt Paulus hier?",
+          "applicationQuestion": "Wie können wir uns sexuell „rein“ halten?"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Gott alle Ehre",
+      "memoryVerse": "„Ob ihr nun esst oder trinkt oder was ihr auch tut, das tut alles zu Gottes Ehre.“ (1 Kor 10,31)",
+      "description": "In dieser Woche haben wir gesehen, wie man der Götzenanbetung entfliehen kann.",
+      "startingQuestion": "Was denkst du, wie wirkt sich unser christliches Verhalten auf andere Menschen aus?",
+      "questions": [
+        {
+          "label": "1. Korinther 8,1-3",
+          "passages": [ "1Kor 8,1-3" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [
+            "Paulus betont hier, dass Erkenntnis (gr. gnōsis – religiöses und theologisches Wissen) aufbläht und die Liebe aufbaut (gr. oikodomeō – verglichen mit dem Hausbau). Wie wird man geistlich stolz?",
+            "In welchen Situationen kann theologisches Wissen ohne Liebe für eine Gemeinde gefährlich werden?"
+          ],
+          "applicationQuestion": [ "Worin liegt der Unterschied zwischen meine Erkenntnisse über Gott oder dass ich von Gott erkannt bin?", "" ],
+          "addedQuestions": [ "In welchem Verhältnis stehen Liebe und Erkenntnis oder wie können wir unser biblisches Wissen so einsetzen, dass es andere aufbaut, statt sie unter Druck zu setzen oder abzuwerten?", "" ]
+        },
+        {
+          "label": "1. Korinther 9,12-15",
+          "passages": [ "1Kor 9,12-15" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wohl verzichtete Paulus auf materielle Unterstützung, obwohl ihm dieses Recht offensichtlich zustünde?" ],
+          "applicationQuestion": [ "Welche Prinzipien werden hier deutlich und was mag Paulus mit dem Tempelbild ausdrücken wollen?", "" ],
+          "addedQuestions": [ "Sind wir nicht alle Evangeliumsverkündiger? Wen mag er wohl meinen und wie könnte eine „Nährung vom Evangelium“ heute aussehen?", "" ]
+        },
+        {
+          "label": "1. Korinther 10,1-5.12-13.31",
+          "passages": [ "1Kor 10,1-5", "1Kor 10,12-13", "1Kor 10,31" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Die Israeliten hatten große geistliche Privilegien und fielen dennoch in der Wüste. Warum ist die Warnung in V. 12 auch für uns aktuell? Wie hilft uns das Beispiel Israels?" ],
+          "applicationQuestion": [ "Gott verspricht uns in jeder Versuchung einen Ausweg. Warum versäumen wir es dennoch, diesen Ausweg zu ergreifen? Wie können wir lernen, in Momenten der Prüfung fester auf Jesus zu blicken?", "" ],
+          "addedQuestions": [ "Wie können wir Gott ehren – egal, was wir tun?", "" ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Geistliche Gaben",
+      "memoryVerse": "„Strebt nach der Liebe! Bemüht euch um die Gaben des Geistes, am meisten aber darum, dass ihr prophetisch redet!“ (1 Kor 14,1)",
+      "description": "In dieser Woche haben wir uns mit der Rolle der Geistesgaben in der Gemeinde beschäftigt. Diese wollen die Gemeinde aufbauen und Spaltungen vermeiden.",
+      "startingQuestion": "Wie können wir in der Gemeinde einander lieben?",
+      "questions": [
+        {
+          "label": "1. Korinther 12,1-11",
+          "passages": [ "1Kor 12,1-11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum schenkt Gott „geistliche“ Gaben und wer bekommt sie wohl?" ],
+          "applicationQuestion": [ "In Vers 7 beschreibt Paulus, dass „in einem jeden (…) der Geist zum Nutzen aller“ offenbart wird. Wie können die anderen von meiner geistlichen Gabe in der Gemeinde profitieren?" ],
+          "addedQuestions": [ "Welchen Nutzen hat meine „geistliche Gabe“, wenn ich die Gemeinschaft der Gemeinde meide? Welche Rolle spielt dabei das Gemeindekollektiv?" ]
+        },
+        {
+          "label": "1. Korinther 12,12-14.26-28; vgl. Römer 12,6-8; Epheser 4,11-12",
+          "passages": [ "1Kor 12,12-14.26-28", "Röm 12,6-8", "Eph 4,11-12" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche Botschaft möchte uns Paulus durch das Bild vom menschlichen Körper und der Gemeinde wohl vermitteln? In welchem Verhältnis stehen die Gemeindeglieder zueinander?" ],
+          "applicationQuestion": [ "Die Bibel beschreibt etliche geistliche Gaben. Wie finde ich heraus, was meine Gabe ist?" ],
+          "addedQuestions": [ "Was würde wohl passieren, wenn jemand eine andere geistliche Gabe auslebt, die ihm nicht verliehen wurde, wie z.B. jemanden zu ermahnen – anstatt zu lehren (vgl. Röm 12,6-8)?" ]
+        },
+        {
+          "label": "1. Korinther 13,1-7; 1 Petrus 4,8-11",
+          "passages": [ "1Kor 13,1-7", "1Petr 4,8-11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche Rolle spielt die Liebe im Hinblick auf geistliche Gaben?" ],
+          "applicationQuestion": [ "Paulus erwähnt 8 Eigenschaften der Liebe. Welche sind das?" ],
+          "addedQuestions": [ "Wie können wir in der Gemeinde einander lieben?" ]
+        },
+        {
+          "label": "1. Korinther 14,1-4; Epheser 4,11-13",
+          "passages": [ "1Kor 14,1-4", "Eph 4,11-13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Die Gabe der Prophetie wird als erstrebenswertesten geschildert. Warum? Welche Aufgabe wird dieser Gabe zugeordnet?" ],
+          "applicationQuestion": [ "Was würde in einer Gemeinde geschehen, wenn diese Gabe ignoriert würde?" ],
+          "addedQuestions": [ "Als Adventisten sehen wir die Gabe der Prophetie im Leben und Wirken von Ellen G. White erfüllt. Wie wurde die Gemeinde durch sie konkret erbaut?" ]
+        },
+        {
+          "label": "Markus 7,33.35; 16,17; Apostelgeschichte 2,3-4.11; 1. Korinther 14,2.4-6.13-14.26-27",
+          "passages": [ "Mar 7,33.35", "Mar 16,17", "Apostelgeschichte 2,3-4.11", "1Kor 14,2.4-6.13-14.26-27" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "In diesen Texten wird das gr. Wort glōssa („Zunge“) erwähnt. Was bedeutet die „Zunge“ in diesen Bibeltexten?" ],
+          "applicationQuestion": [ "Warum setzt Paulus voraus, dass wer in „Zungen“ redet, er oder sie sie auch auslegen bzw. erklären, deuten, übersetzen (gr. dihermeneuo) solle?" ],
+          "addedQuestions": [ "Hast du die Gabe der Zungenrede im biblischen Sinn schon mal erlebt? Berichte!" ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Ein Porträt der Liebe",
+      "memoryVerse": "„Nun aber bleiben Glaube, Hoffnung, Liebe, diese drei; aber die Liebe ist die größte unter ihnen.“ (1 Kor 13,13)",
+      "description": "In dieser Woche haben wir das wunderbare Porträt der Liebe Gottes genauer betrachtet.",
+      "startingQuestion": "Was denkst du, woran erkennt man geistliche Reife?",
+      "questions": [
+        {
+          "label": "1. Korinther 13,1-3; Matthäus 24,12",
+          "passages": [ "1Kor 13,1-3", "Mt 24,11-12" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus zählt hier einige geistliche Gaben auf. Warum kommt er zu der Erkenntnis, dass all das ohne die Liebe wertlos sei?" ],
+          "applicationQuestion": [ "Woran kann man in unserem persönlichen Glaubensleben oder in der Gemeinde erkennen, ob wir unsere geistlichen Gaben aus Liebe einbringen? Welche Motive gäbe es noch?" ],
+          "addedQuestions": [ "Paulus verbindet große biblische Erkenntnis nicht automatisch mit geistlicher Reife. Wie können wir verhindern, dass richtige Erkenntnis uns stolz oder hart macht, statt unseren Charakter zu verändern?", "" ]
+        },
+        {
+          "label": "1. Korinther 13,4-7",
+          "passages": [ "1Kor 13,4-7" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Die Liebe wird mit konkreten Eigenschaften beschrieben (geduldig, freundlich, nicht neidisch oder überheblich, stolz, anstößig). In welchen Alltagssituationen fällt uns das am schwersten, diese Eigenschaften der Liebe auszuleben?", "" ],
+          "applicationQuestion": [ "Alle diese Eigenschaften charakterisieren Jesus Christus. Wie können wir lernen einander so zu lieben (agape)?", "" ],
+          "addedQuestions": [ "Paulus sagt, dass Liebe sich „an der Wahrheit freut“. Wie können wir biblische Wahrheit klar vertreten und gleichzeitig verhindern, dass sie lieblos oder verletzend eingesetzt wird?" ]
+        },
+        {
+          "label": "1. Korinther 13,8-13",
+          "passages": [ "1Kor 13,8-13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum bleibt die Liebe bestehen, während Gaben wie Prophetie oder Sprachenrede irgendwann womöglich aufhören werden?" ],
+          "applicationQuestion": [ "Wenn Paulus sagt, dass unsere Erkenntnis „Stückwerk“ ist: Wie sollte diese Einsicht unseren Umgang mit anderen Christen beeinflussen, die manche biblischen Fragen anders verstehen als wir?" ],
+          "addedQuestions": [ "Am Ende bleiben Glaube, Hoffnung, Liebe – doch die Liebe ist die größte. Warum könnte gerade die Liebe für Paulus der wichtigste Maßstab geistlicher Reife sein, obwohl Glaube und Hoffnung ebenfalls unverzichtbar sind?" ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Die Kraft der Auferstehung Christi",
+      "memoryVerse": "„Ist aber Christus nicht auferweckt worden, so ist unsre Predigt vergeblich, so ist auch euer Glaube vergeblich … Ist Christus aber nicht auferstanden, so ist euer Glaube nichtig, so seid ihr noch in euren Sünden.“ (1 Kor 15,14.17)",
+      "description": "Diese Woche haben wir uns auf die Auferstehung Christi in 1 Kor 15 konzentriert.",
+      "startingQuestion": "Wie gehst du mit Zweifel in deinem Leben um?",
+      "questions": [
+        {
+          "label": "1. Korinther 15,1-4; Römer 1,1-4",
+          "passages": [ "1Kor 15,1-4", "Röm 1,1-4" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus nennt drei zentrale Aussagen, was Christus für uns tat: er starb, wurde begraben und war auferstanden. Was würde dem Evangelium fehlen, wenn Jesus nie auferstanden wäre?" ],
+          "applicationQuestion": [ "Wie können wir fest verwurzelt sein im Evangelium – wie die Korinther (V. 1)?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Korinther 15,5-11",
+          "passages": [ "1Kor 15,5-11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche Beweise liefert Paulus für die Auferstehung Jesu von den Toten?" ],
+          "applicationQuestion": [ "Petrus (vgl. Apg 2,22-24) hatte Jesus verleugnet, Jakobus glaubte zunächst nicht an ihn. Dennoch wurden beide wichtige Zeugen seiner Auferstehung. Was lernen wir daraus für unseren Umgang mit eigenem Versagen, Zweifeln oder Misstrauen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Korinther 15,12-19",
+          "passages": [ "1Kor 15,12-19" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche Folgen zählt Paulus auf, wenn Christus nicht auferstanden wäre? Warum sind dann wohl die Predigt und der Glaube vergeblich? Warum wären wir dann noch in Sünden?" ],
+          "applicationQuestion": [ "In welcher Beziehung stehen die Verstorbenen zur Auferstehung Jesu?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Korinther 15,20-23.32",
+          "passages": [ "1Kor 15,20-23.32" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Vor Jesus Christus wurden andere Menschen vom Tod auferweckt. Welche Bedeutung hat es wohl, wenn Christus als Erstling, der auferstanden ist, bezeichnet wird?" ],
+          "applicationQuestion": [ "Warum verbindet Paulus die Auferstehung der Gläubigen ausdrücklich mit der Wiederkunft Jesu? Welche Bedeutung hat das für unser Verständnis von Tod und christlicher Hoffnung?" ],
+          "addedQuestions": [ "Wenn der Glaube an eine Ewigkeit wegfällt, wie verändert das unsere Moral und Lebenspraxis?" ]
+        },
+        {
+          "label": "1. Korinther 15,35-49",
+          "passages": [ "1Kor 15,35-49" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus vergleicht die Auferstehung mit einem Samenkorn. Was möchte er wohl mit diesem Bild verdeutlichen?" ],
+          "applicationQuestion": [ "Was bedeutet es für unser philosophisches Verständnis vom Menschen, dass Paulus nicht von einer befreiten Seele, sondern von einem auferweckten Leib spricht?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Korinther 15,50-58",
+          "passages": [ "1Kor 15,50-58" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Wann erhalten die Erlösten das Geschenk der Unsterblichkeit?" ],
+          "applicationQuestion": [ "Wie können wir also geistlich siegen?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Von Liebe angetriebener Dienst",
+      "memoryVerse": "„Denn ich schrieb euch aus großer Bedrängnis und Angst des Herzens unter vielen Tränen; nicht damit ihr betrübt werdet, sondern damit ihr die Liebe erkennt, die ich habe, besonders zu euch.“ (2. Kor 2,4)",
+      "description": "Paulus sorgte sich um die Gemeinde. Dennoch ließ seine Liebe zu ihr nie nach. Er liebe sie, wie Jesus uns liebt.",
+      "startingQuestion": "Was fällt uns leichter, Fehlverhalten anderer anzusprechen oder zu ignorieren? Warum ist das wohl so?",
+      "questions": [
+        {
+          "label": "2. Korinther 1,3-7",
+          "passages": [ "2 Kor 1,3-7" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus beschreibt Gott als den „Vater der Barmherzigkeit und Gott allen Trostes“ und betont, dass dieser Trost dazu gedacht ist, ihn mit anderen zu teilen. Wie ist dieser Trost zu verstehen und wo konntest du durch deine Erfahrungswerte, andere in ihrer Not unterstützen?" ],
+          "applicationQuestion": [ "Das griechische Wort für „Trost“ (paráklēsis) bedeutet Ermutigung, Zuspruch oder Beistand. Warum nimmt Gott nach diesem Text Schwierigkeiten nicht immer sofort weg, sondern begegnet uns gerade mitten in der Bedrängnis?" ],
+          "addedQuestions": [ "Inwiefern tröstet uns womöglich das Leid Christi?" ]
+        },
+        {
+          "label": "2. Korinther 1,8-11",
+          "passages": [ "2 Kor 1,8-11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Der Apostel berichtet, dass seine Bedrängnisse in Asien so schwer waren, dass er „sogar am Leben verzweifelte“ (2 Kor 1,8-9). Warum müssen wir oft ans Ende unserer eigenen Kraft gelangen, bevor wir Gottes Kraft erfahren können?" ],
+          "applicationQuestion": [ "Wie können wir in einer persönlichen Krise lernen, weniger auf die eigene Kraft und stärker auf Gott zu vertrauen?" ],
+          "addedQuestions": [ "Welche Macht hat Fürbitte für meinen Nächsten?" ]
+        },
+        {
+          "label": "2. Korinther 1,12-14.17; 4,2",
+          "passages": [ "2 Kor 1,12-14", "2 Kor 1,17", "2 Kor 4,2" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Gemäß Paulus darf Wahrheit nicht nur verkündigt, sondern sie muss auch wahrheitsgetreu vermittelt werden. Wie können (gut gemeinte) versteckte Absichten in der Mission die Wirksamkeit des Evangeliums behindern? Welche Absichten könnten das wohl sein?" ],
+          "applicationQuestion": [ "Warum neigen wir dazu, die Umstände zu unseren Gunsten „zu drehen“?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 2,1-4",
+          "passages": [ "2 Kor 2,1-4" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum entschied Paulus zunächst nicht nach Korinth zu kommen? Was erfahren wir daraus über seine Haltung zur Gemeinde?" ],
+          "applicationQuestion": [ "Wie können wir einen Menschen auf einen Fehler ansprechen, sodass Wahrheit, Liebe und Wertschätzung sichtbar werden?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 2,5-11",
+          "passages": [ "2 Kor 2,5-11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Bewusste Sünde eines Menschen kann die gesamte Gemeinde betreffen. In welcher Verantwortung steht die Gemeinde, nachdem die korrigierende Seelsorge erfolgreich war?" ],
+          "applicationQuestion": [ "Welche Folgen beschreibt Paulus, wenn die Gemeinde Vergebungsbereitschaft verweigert?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 2,12-13",
+          "passages": [ "2 Kor 2,12-13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Was beunruhigte Paulus?" ],
+          "applicationQuestion": [ "Wie könnten wir mit „geistlicher Unruhe“ umgehen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 2,14-17",
+          "passages": [ "2 Kor 2,14-17" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welches Bild gebraucht Paulus für die Verkündigung des Evangeliums?" ],
+          "applicationQuestion": [ "Wie können wir zum Wohlgeruch (Duft) für andere werden?" ],
+          "addedQuestions": [ "Was bedeutet es womöglich, dass dieselbe Botschaft von Christus unterschiedliche Reaktionen („Geruch des Todes“ und „Geruch des Lebens“) bewirken kann?" ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Authentischer christlicher Dienst",
+      "memoryVerse": "„Wir sind von allen Seiten bedrängt, aber wir ängstigen uns nicht. Uns ist bange, aber wir verzagen nicht. Wir leiden Verfolgung, aber wir werden nicht verlassen. Wir werden unterdrückt, aber wir kommen nicht um. Wir tragen allezeit das Sterben Jesu an unserm Leibe, auf dass auch das Leben Jesu an unserem Leibe offenbar werde.“ (2. Kor 14,8-10)",
+      "description": "In dieser Woche ging es um den Abschnitt, wo Paulus Menschen für Christus gewann.",
+      "startingQuestion": "Wie findet man inneren Frieden – trotz Schuldgefühlen, Scham und Fehler der Vergangenheit?",
+      "questions": [
+        {
+          "label": "2. Korinther 3,1-3",
+          "passages": [ "2 Kor 3,1-3" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus bezeichnet die Korinther als einen „Brief Christi“. Was bedeutet dieses Bild konkret, und wer schreibt gemäß Paulus diesen Brief?" ],
+          "applicationQuestion": [ "Die Gemeinde in Korinth war keineswegs vollkommen und wird trotzdem als „Brief Christi“ bezeichnet. Was sagt das darüber aus, wie Gott mit unvollkommenen Menschen arbeitet und sie als seine Zeugen gebraucht?" ],
+          "addedQuestions": [ "Paulus spricht davon, dass Gottes Geist nicht auf Steintafeln, sondern auf menschliche Herzen schreibt. Was ist der Unterschied zwischen einem äußerlich eingehaltenen Gebot und einem Gesetz, das ins Herz geschrieben ist?" ]
+        },
+        {
+          "label": "2. Korinther 4,6-7",
+          "passages": [ "2 Kor 4,6-7" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "In Vers 6 bedient sich Paulus der Schöpfungssprache (Gott sprach; Licht + Finsternis) und beschreibt die Bekehrung als schöpferisches Handeln Gottes. Welche Rolle spielt dabei der Mensch?" ],
+          "applicationQuestion": [ "In der Antike waren Tongefäße gewöhnlich und leicht zerbrechlich. Was wird scheinbar hier in dem Kontrast deutlich – ein „Schatz in irdenen Gefäßen“?" ],
+          "addedQuestions": [ "Wie können wir unsere eigenen Schwächen annehmen – ohne sie als Ausrede im Dienst für die Gemeinde zu benutzen – und dennoch stärker auf Gottes Kraft vertrauen?" ]
+        },
+        {
+          "label": "2. Korinther 4,16-18",
+          "passages": [ "2 Kor 4,16-18" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus stellt hier mehrere Gegensätze gegenüber: äußerer und innerer Mensch, Bedrängnis und Herrlichkeit, Sichtbares und Unsichtbares. Welche Botschaft möchte Paulus damit scheinbar vermitteln?" ],
+          "applicationQuestion": [ "Vers 18 betont das Unsichtbare anzuschauen. Wie können wir lernen, uns nicht nur von schweren Diagnosen, Geldsorgen oder Konflikten abzulenken, sondern das Wesentliche im Blick behalten?" ],
+          "addedQuestions": [ "Paulus sagt, der innere Mensch werde „von Tag zu Tag erneuert“ (V. 16). Woran kann man erkennen, dass diese geistliche Erneuerung stattfindet?" ]
+        },
+        {
+          "label": "2. Korinther 5,17-21",
+          "passages": [ "2 Kor 5,17-21" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Wenn wir als Christen „Botschafter Christi“ sind, wie können wir in Konflikten, Beziehungen und im Gemeindealltag konkret Versöhnung ausleben?" ],
+          "applicationQuestion": [ "Als Bekehrte sind wir eine „neue Schöpfung“ (Kreatur). Wie gehen wir mit der Spannung um, dass wir vor Gott rechtlich eine „neue Schöpfung“ sind und praktisch unsere alten Fehler dennoch auftreten?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 6,14",
+          "passages": [ "2 Kor 6,14" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Das hier zitierte Bild entleiht Paulus aus Deuteronomium 22,10. Warum sollen wir nicht am fremden (ungleichen) Joch ziehen? Welche Sorge treibt ihn womöglich?" ],
+          "applicationQuestion": [ "Das „fremde Joch“ ist nicht nur auf Ehe und Partnerschaft begrenzt. Welche Beziehungen oder Bindungen mit Menschen und anderen Glaubens- und Weltbildern können Konflikte erzeugen?" ],
+          "addedQuestions": [ "Woran kann ich erkennen, ob eine Beziehung mich näher zu Gott führt oder eher geistlich verkümmern lässt?" ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Haushalterschaft und Mission",
+      "memoryVerse": "„Denn ihr kennt die Gnade unseres Herrn Jesus Christus: Obwohl er reich ist, wurde er doch arm um euretwillen, auf dass ihr durch seine Armut reich würdet.“ (2. Kor 8,8)",
+      "description": "Diese Woche haben wir gesehen, wie Haushalterschaft und Mission miteinander verbunden sind. Finanzielle und personelle Ressourcen tragen dazu bei, dass Gottes Mission erfüllt wird.",
+      "startingQuestion": "Warum gibt es wohl Armut auf der Welt?",
+      "questions": [
+        {
+          "label": "2. Korinther 8,1-6",
+          "passages": [ "2 Kor 8,1-6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus beschreibt in diesem Abschnitt Gemeinden, die trotz großer Bedrängnis und Armut voller Freude und gebefreudig waren. Was war nach Vers 5 das Geheimnis ihrer Haltung?" ],
+          "applicationQuestion": [ "Was bedeutet es konkret, sich zuerst Gott zu geben – und wie verändert eine solche Hingabe unseren Umgang mit Besitz, Sicherheit und den Bedürfnissen anderer Menschen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 8,7-9",
+          "passages": [ "2 Kor 8,7-9" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Christus „wurde arm“, damit wir „reich“ würden (V. 9). Worin besteht dieser Reichtum, und was lernen wir aus der freiwilligen Selbsthingabe Jesu über den Charakter Gottes und über echte Nachfolge?" ],
+          "applicationQuestion": [ "Wie kann sich die Gnade Christi, die wir selbst erfahren haben, ganz praktisch in unserem Umgang mit Geld, Zeit, Fähigkeiten und Menschen in Not zeigen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 9,6-15",
+          "passages": [ "2 Kor 9,6-15" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Was verspricht der Text einem großzügigen Geber?" ],
+          "applicationQuestion": [ "Was könnten wir womöglich geben, wenn man „arm“ ist?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Römer 15,26-27",
+          "passages": [ "Röm 15,26-27" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Wie können wir heute ganz praktisch Verantwortung für Glaubensgeschwister übernehmen, denen es finanziell, sozial oder persönlich schlechter geht als uns?" ],
+          "applicationQuestion": [ "Was können wir hier über Dankbarkeit lernen?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Umgang mit Irrlehrern",
+      "memoryVerse": "„Denn die Waffen unsres Kampfes sind nicht fleischlich, sondern mächtig im Dienste Gottes, Festungen zu zerstören.“ (2. Kor 10,4)",
+      "description": "Umgang mit Irrlehrern kann herausfordernd sein. Dennoch muss die biblische Botschaft unverfälscht und rein verkündigt werden.",
+      "startingQuestion": "Wie können wir im Zeitalter von Fake News (Falschnachrichten) Wahrheit von Lüge unterscheiden?",
+      "questions": [
+        {
+          "label": "2. Korinther 10,1-6",
+          "passages": [ "2Kor 10,1-6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus unterscheidet zwischen Kampf „im Fleisch“ – einschließlich menschlicher Methoden, Selbstbehauptung, Machtdenken und einem „geistlichen Kampf“ (V. 3). Worin besteht offensichtlich dieser Unterschied?" ],
+          "applicationQuestion": [ "Wie können wir dazu beitragen, andere durch unser Reden nicht zu entmutigen oder zu vergraulen, sondern aufzubauen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 10,12-18",
+          "passages": [ "2Kor 10,12-18" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wohl kritisiert Paulus hier Menschen, die „sich selbst messen und mit sich selbst vergleichen“?" ],
+          "applicationQuestion": [ "Was könnte sich in einer Gemeinde verändern, wenn der Grundsatz im Mittelpunkt stünde „Wer sich rühmt, der rühme sich des Herrn.“?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 11,7-15",
+          "passages": [ "2Kor 11,7-15" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Falsche Lehrer erscheinen oft als „Diener der Gerechtigkeit“. Warum sind manche Gemeinde auch heute noch ein Nährboden für Irrlehrer? Woran können wir falsche von den richtigen Lehrern unterscheiden?" ],
+          "applicationQuestion": [ "Wie können wir heute geistlich wachsam sein?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 11,22-28",
+          "passages": [ "2Kor 11,22-28" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus nennt zahlreiche Leiden und Gefahren. Warum führt er ausgerechnet diese Erfahrungen an und nicht seine großen Erfolge?" ],
+          "applicationQuestion": [ "Paulus sorgt sich um alle Gemeinden. Wie gehst du mit den „Sorgen der Gemeinde“ um?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Korinther 12,19-21",
+          "passages": [ "2Kor 12,19-21" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Was befürchtet Paulus bei seinem Besuch in Korinth?" ],
+          "applicationQuestion": [ "Was können wir daraus lernen im Umgang mit herausfordernden Gemeindeverhältnissen?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Gnade, Liebe und Gemeinschaft",
+      "memoryVerse": "„Die Gnade unseres Herrn Jesus Christus und die Liebe Gottes und die Gemeinschaft des Heiligen Geistes sei mit euch allen!“ (2. Kor 13,13)",
+      "description": "Das Studium der Korintherbriefe zeigte uns, dass Gnade, Liebe und Gemeinschaft die Folgen des Wirkens des dreieinigen Gottes sind.",
+      "startingQuestion": "Wie kann untereinander Vertrauen entstehen, wenn der andere einen „Geist der Kritik“ an mir übt?",
+      "questions": [
+        {
+          "label": "2 Korinther 13,11",
+          "passages": [ "2Kor 13,11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Paulus beendet den Brief mit einigen Aufforderungen. Darunter auch „lasst euch zurechtbringen“ (gr. katartízesthe). Es stammt aus dem Wortfeld von Wiederherstellen / Instandsetzen (vgl. Mt 4,21: Netze ausbessern). Was will er wohl damit aussagen?" ],
+          "applicationQuestion": [ "Warum tun wir uns oft so schwer mit Veränderungen in unserem Glaubensleben?" ],
+          "addedQuestions": [ "Warum ist es unmöglich wahre geistliche Einheit allein durch menschliche Anstrengung zu erreichen?" ]
+        },
+        {
+          "label": "2 Korinther 13,12",
+          "passages": [ "2Kor 13,12" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche Bedeutung bekommt dieser „heilige Kuss“ im Kontext der beschriebenen Auseinandersetzungen zwischen Paulus und der (heiligen) Gemeinde in Korinth? Was mag er wohl bewirkt haben?" ],
+          "applicationQuestion": [ "Was unterscheidet echte christliche Gemeinschaft von einer „gewöhnlichen“ Freundschaft?" ],
+          "addedQuestions": [ "Vor welchen Herausforderungen steht eine Gemeinde, wenn ihre Mitglieder unversöhnt leben? Welche Auswirkungen hat das möglicherweise auf ihr Umfeld?" ]
+        },
+        {
+          "label": "2 Korinther 13,13",
+          "passages": [ "2Kor 13,13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "In Anbetracht von Konflikten und Ermahnungen verbindet Paulus am Ende seines Briefes Jesus Christus mit „Gnade“, Gott mit „Liebe“ und den Heiligen Geist mit „Gemeinschaft“. Was mag er wohl damit bezwecken?" ],
+          "applicationQuestion": [ "Wie können wir heute diesen Segensgruß Pauli in Anspruch nehmen? Was setzt er voraus (vgl. Mt 18,20)?" ],
+          "addedQuestions": [ "Was können wir tun, um sicherzustellen, dass wir mit dem Heiligen Geist „zusammenarbeiten“, anstatt ihn zu betrüben (vgl. Eph 4,30)?" ]
+        }
+      ]
+    }
+  ]
+}

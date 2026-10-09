@@ -1,0 +1,7 @@
+{
+  // Reihenfolge hier = Reihenfolge in der App
+  "series": [    
+    { "id": "jesus_mein_leben_01", "file": "discipleship/jesus_mein_leben_01.json" },
+    { "id": "thema_01", "file": "discipleship/thema_01.json" }
+  ]
+}

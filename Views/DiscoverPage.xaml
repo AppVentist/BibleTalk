@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:BibleTalk.ViewModels" xmlns:controls="clr-namespace:BibleTalk.Views.Controls" x:Class="BibleTalk.Views.DiscoverPage" x:DataType="vm:DiscoverViewModel" Title="Alle Themen entdecken">
+ <Grid Padding="18" RowDefinitions="Auto,Auto,Auto,*" RowSpacing="12">
+  <SearchBar Placeholder="Thema oder Bibelstelle suchen" Text="{Binding SearchText}" />
+  <Picker Grid.Row="1" Title="Kategorie" ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}" />
+  <Label Grid.Row="2" Text="Keine passenden Themen gefunden." IsVisible="{Binding IsEmpty}" />
+  <CollectionView Grid.Row="3" ItemsSource="{Binding Items}" SelectionMode="None">
+   <CollectionView.ItemTemplate><DataTemplate x:DataType="vm:ConversationItemViewModel"><controls:ConversationCard /></DataTemplate></CollectionView.ItemTemplate>
+  </CollectionView>
+ </Grid>
+</ContentPage>

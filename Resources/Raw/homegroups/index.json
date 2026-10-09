@@ -1,0 +1,8 @@
+{
+  // Reihenfolge hier = Reihenfolge in der App
+  "series": [
+    { "id": "evangelien", "file": "homegroups/evangelien.json" },
+    { "id": "bergpredigt", "file": "homegroups/bergpredigt.json" },
+    { "id": "epheserbrief", "file": "homegroups/epheserbrief.json" }
+  ]
+}

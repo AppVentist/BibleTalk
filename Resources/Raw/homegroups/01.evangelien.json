@@ -1,0 +1,27 @@
+{
+  "id": [ "" ],
+  "title": "Evangelien",
+  "description": "...",
+  "content": [
+    {
+      "id": "1",
+      "title": "Evangelium nach Matthäus",
+      "description": "...",
+      "content": [
+        {
+          "id": "1.1",
+          "title": "Kapitel 1",
+          "description": "...",
+          "content": [
+            {
+              "id": "1.1.1",
+              "title": "Vers 1",
+              "description": "...",
+              "content": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

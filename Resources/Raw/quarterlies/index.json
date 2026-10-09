@@ -1,0 +1,9 @@
+{
+  // Reihenfolge hier = Reihenfolge in der App (neuestes Heft zuerst)
+  "series": [
+    { "id": "2026_q4", "file": "quarterlies/2026_q4.json" },
+    { "id": "2026_q3", "file": "quarterlies/2026_q3.json" },
+    { "id": "2026_q2", "file": "quarterlies/2026_q2.json" },
+    { "id": "2026_q1", "file": "quarterlies/2026_q1.json" }
+  ]
+}

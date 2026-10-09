@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:BibleTalk.ViewModels" xmlns:controls="clr-namespace:BibleTalk.Views.Controls" x:Class="BibleTalk.Views.MainPage" x:DataType="vm:MainViewModel">
+ <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+  <ScrollView>
+   <VerticalStackLayout Padding="18,12,18,24" Spacing="18">
+    <Label Text="STANDARDAUSGABE" FontAttributes="Bold" FontSize="14" />
+    <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
+    <VerticalStackLayout IsVisible="{Binding HasError}" Spacing="8">
+     <Label Text="{Binding ErrorMessage}" />
+     <Button Text="Erneut laden" Command="{Binding RefreshCommand}" />
+    </VerticalStackLayout>
+    <CollectionView ItemsSource="{Binding Quarterlies}" ItemsLayout="HorizontalList" HeightRequest="265" SelectionMode="None">
+     <CollectionView.ItemTemplate>
+      <DataTemplate x:DataType="vm:SeriesItemViewModel">
+       <VerticalStackLayout WidthRequest="150" Margin="0,0,14,0" Spacing="5">
+        <Border StrokeShape="RoundRectangle 12" HeightRequest="205" Stroke="Transparent">
+         <ImageButton Source="{Binding CoverImage}" Aspect="AspectFill" Command="{Binding OpenCommand}" SemanticProperties.Description="{Binding Title}" />
+        </Border>
+        <Label Text="{Binding Title}" FontSize="13" FontAttributes="Bold" MaxLines="2" LineBreakMode="TailTruncation" />
+        <Label Text="{Binding Subtitle}" FontSize="11" />
+       </VerticalStackLayout>
+      </DataTemplate>
+     </CollectionView.ItemTemplate>
+    </CollectionView>
+    
+       <VerticalStackLayout IsVisible="{Binding HasResume}" Spacing="8">
+     <Label Text="WEITERLESEN" FontSize="13" FontAttributes="Bold" />
+     <Border Padding="12" StrokeShape="RoundRectangle 16" Stroke="{AppThemeBinding Light={StaticResource LightOutline}, Dark={StaticResource DarkOutline}}" BackgroundColor="{AppThemeBinding Light={StaticResource LightSurface}, Dark={StaticResource DarkSurface}}">
+      <Grid BindingContext="{Binding Resume}" x:DataType="vm:ConversationItemViewModel" ColumnDefinitions="48,*,32" ColumnSpacing="12">
+       <Grid.GestureRecognizers><TapGestureRecognizer Command="{Binding OpenCommand}" /></Grid.GestureRecognizers>
+       <Image Source="{Binding CoverImage}" HeightRequest="60" Aspect="AspectFill" />
+       <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="4">
+        <Label Text="{Binding Title}" FontSize="15" FontAttributes="Bold" />
+        <Label Text="{Binding ResumeDetails}" FontSize="12" />
+       </VerticalStackLayout>
+       <Button Grid.Column="2" Text="›" Padding="0" FontSize="24" BackgroundColor="Transparent" Command="{Binding OpenCommand}" TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" SemanticProperties.Description="Weiterlesen" />
+      </Grid>
+     </Border>
+    </VerticalStackLayout>
+    
+       <VerticalStackLayout Spacing="6">
+     <Label Text="Für euer nächstes Gespräch" FontSize="24" FontAttributes="Bold" />
+     <Label Text="Ein Abend. Ein Bibeltext. Gute Fragen." FontSize="14" TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+    </VerticalStackLayout>
+    
+       <VerticalStackLayout BindableLayout.ItemsSource="{Binding Conversations}" Spacing="0">
+     <BindableLayout.ItemTemplate><DataTemplate x:DataType="vm:ConversationItemViewModel"><controls:ConversationCard /></DataTemplate></BindableLayout.ItemTemplate>
+    </VerticalStackLayout>
+    <Button Text="Alle Themen entdecken" Command="{Binding DiscoverCommand}" BackgroundColor="Transparent" BorderWidth="1" CornerRadius="12" TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" BorderColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
+   </VerticalStackLayout>
+  </ScrollView>
+ </RefreshView>
+</ContentPage>
