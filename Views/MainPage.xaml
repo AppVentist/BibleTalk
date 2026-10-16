@@ -28,7 +28,9 @@
      <Border Padding="12" StrokeShape="RoundRectangle 16" Stroke="{AppThemeBinding Light={StaticResource LightOutline}, Dark={StaticResource DarkOutline}}" BackgroundColor="{AppThemeBinding Light={StaticResource LightSurface}, Dark={StaticResource DarkSurface}}">
       <Grid BindingContext="{Binding Resume}" x:DataType="vm:ConversationItemViewModel" ColumnDefinitions="48,*,32" ColumnSpacing="12">
        <Grid.GestureRecognizers><TapGestureRecognizer Command="{Binding OpenCommand}" /></Grid.GestureRecognizers>
-       <Image Source="{Binding CoverImage}" HeightRequest="60" Aspect="AspectFill" />
+       <Border StrokeShape="RoundRectangle 4" Stroke="Transparent">
+          <Image Source="{Binding CoverImage}" HeightRequest="60" Aspect="AspectFill" />
+       </Border>
        <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="4">
         <Label Text="{Binding Title}" FontSize="15" FontAttributes="Bold" />
         <Label Text="{Binding ResumeDetails}" FontSize="12" />
@@ -39,15 +41,18 @@
     </VerticalStackLayout>
     
        <VerticalStackLayout Spacing="6">
-     <Label Text="Für euer nächstes Gespräch" FontSize="24" FontAttributes="Bold" />
-     <Label Text="Ein Abend. Ein Bibeltext. Gute Fragen." FontSize="14" TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+     <Label Text="Für euren nächsten Hauskreis" FontSize="24" FontAttributes="Bold" />
+     <Label Text="Geistliche Fragen. Biblische Antworten." FontSize="14" TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
     </VerticalStackLayout>
     
        <VerticalStackLayout BindableLayout.ItemsSource="{Binding Conversations}" Spacing="0">
-     <BindableLayout.ItemTemplate><DataTemplate x:DataType="vm:ConversationItemViewModel"><controls:ConversationCard /></DataTemplate></BindableLayout.ItemTemplate>
-    </VerticalStackLayout>
-    <Button Text="Alle Themen entdecken" Command="{Binding DiscoverCommand}" BackgroundColor="Transparent" BorderWidth="1" CornerRadius="12" TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" BorderColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
-   </VerticalStackLayout>
-  </ScrollView>
+            <BindableLayout.ItemTemplate><DataTemplate x:DataType="vm:ConversationItemViewModel"><controls:ConversationCard /></DataTemplate></BindableLayout.ItemTemplate>
+        </VerticalStackLayout>
+            <Button Text="Alle Themen entdecken" Command="{Binding DiscoverCommand}" BackgroundColor="Transparent" BorderWidth="1" CornerRadius="12" TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" BorderColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
+                <Label Text="developed by AppVentist."
+                HorizontalTextAlignment="Center"
+                TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
+            </VerticalStackLayout>            
+        </ScrollView>
  </RefreshView>
 </ContentPage>

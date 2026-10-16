@@ -58,7 +58,7 @@
                 ContentTemplate="{DataTemplate views:FeedbackPage}"
                 Route="FeedbackPage" />
         </Tab>
-        <Tab Title="Einstellungen" Icon="btn_settings.png">
+        <Tab Title="Settings" Icon="btn_settings.png">
             <ShellContent
                 ContentTemplate="{DataTemplate views:SettingsPage}"
                 Route="SettingsPage"/>

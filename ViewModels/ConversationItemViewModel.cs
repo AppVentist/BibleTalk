@@ -11,12 +11,12 @@ public partial class ConversationItemViewModel
     public string Title => Topic.Title;
     public string CoverImage => Series.CoverImage;
     public string Category => Topic.Category ?? (Series.Kind switch {
-        SeriesKind.Discipleship => "Glaubensfragen", SeriesKind.Homegroup => "Bibel entdecken", _ => "Standardausgabe" });
+        SeriesKind.Discipleship => "Glauben vertiefen", SeriesKind.Homegroup => "Bibel entdecken", _ => "Standardausgabe" });
     public string Details => string.IsNullOrWhiteSpace(Topic.ConversationReference)
         ? $"{Series.Title} · {Series.TopicWord} {Topic.Number}"
         : $"{Topic.ConversationReference} · ca. {Topic.DurationMinutes} Min.";
     public string ResumeDetails => $"Zuletzt geöffnet · {Series.TopicWord} {Topic.Number}";
-    public string Symbol => Category switch { "Alltag" => "☀", "Glaubensfragen" => "♡", _ => "◇" };
+    public string Symbol => Category switch { "Alltag bewältigen" => "☀", "Glauben vertiefen" => "♡", _ => "◇" };
     [RelayCommand]
     private Task OpenAsync() => Shell.Current.GoToAsync(nameof(TopicPage), new Dictionary<string, object> {
         ["Series"] = Series, ["Topic"] = Topic });

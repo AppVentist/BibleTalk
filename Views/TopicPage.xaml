@@ -4,7 +4,7 @@
              xmlns:vm="clr-namespace:BibleTalk.ViewModels"
              xmlns:models="clr-namespace:BibleTalk.Models"
              x:Class="BibleTalk.Views.TopicPage"
-             x:DataType="vm:TopicViewModel"
+             x:DataType="vm:TopicViewModel"             
              Shell.NavBarIsVisible="False">
 
     <Grid RowDefinitions="Auto,*">
