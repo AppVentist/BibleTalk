@@ -146,25 +146,52 @@
           "addedQuestions": [ "" ]
         }
       ]
+    },
+    {
+      "number": 4,
+      "title": "Propheten im Neuen Testament",
+      "memoryVerse": "„Es sind verschiedene Gaben; aber es ist ein Geist. Und es sind verschiedene Ämter; aber es ist ein Herr. Und es sind verschiedene Kräfte; aber es ist ein Gott, der da wirkt alles in allen.“ (1 Kor 12,4-6)",
+      "description": "",
+      "startingQuestion": "Wie gehst du mit Widerständen in deinem Leben um?",
+      "questions": [
+        {
+          "label": "Matthäus 16,13-16",
+          "passages": [ "mt 16,13-16" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum fragt wohl Jesus seine Jünger zuerst nach der Meinung der Menschen und anschließend nach ihrer eigenen Überzeugung?" ],
+          "applicationQuestion": [ "Woran erkennt man den Unterschied, ob jemand Jesus wirklich kennt auf die Frage „Wer ist Jesus?“?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Offenbarung 22,6",
+          "passages": [ "off 22,6" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum vermittelt Gott seine Botschaften durch Propheten und Engel, anstatt sich jedem Menschen unmittelbar zu offenbaren?" ],
+          "applicationQuestion": [ "Die Urgemeinde lebte in der Erwartung, dass die Dinge „in Kürze“ geschehen. Wie bewahren wir uns heute eine gesunde, prophetische Naherwartung?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Epheser 4,11-13",
+          "passages": [ "eph 4,11-13" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum gibt Christus seiner Gemeinde unterschiedliche Dienste wie Apostel, Propheten, Evangelisten, Hirten und Lehrer (V. 11–12), statt allen dieselbe Aufgabe zu übertragen?" ],
+          "applicationQuestion": [ "Paulus nennt die Einheit des Glaubens und die Reife in Christus als Ziel (V. 13). Woran erkennen wir, ob eine Gemeinde wirklich geistlich wächst?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Korinther 14,3",
+          "passages": [ "1kor 14,3" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche Auswirkungen kann prophetische Rede möglicherweise haben und warum?" ],
+          "applicationQuestion": [ "Wie können wir in unserer Gemeinde so miteinander sprechen, dass unsere Worte andere erbauen, ermutigen und trösten?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
     }
-    //{
-    //  "number": 4,
-    //  "title": "Propheten im Neuen Testament",
-    //  "memoryVerse": "„“ ()",
-    //  "description": "",
-    //  "startingQuestion": "",
-    //  "questions": [
-    //    {
-    //      "label": "",
-    //      "passages": [ "" ],
-    //      "bibleReference": "",
-    //      "bibleText": "",
-    //      "bibleQuestion": [ "" ],
-    //      "applicationQuestion": [ "" ],
-    //      "addedQuestions": [ "" ]
-    //    }
-    //  ]
-    //},
       //{
       //  "number": 5,
       //  "title": "Offenbarung und Inspiration",
