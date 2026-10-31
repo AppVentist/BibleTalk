@@ -191,25 +191,52 @@
           "addedQuestions": [ "" ]
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "Offenbarung und Inspiration",
+      "memoryVerse": "„“ ()",
+      "description": "",
+      "startingQuestion": "Warum fällt es uns manchmal schwer, eine Wahrheit anzunehmen, die unseren bisherigen Überzeugungen widerspricht?",
+      "questions": [
+        {
+          "label": "Hebräer 1,1-2",
+          "passages": [ "heb 1,1-2" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Gott sprach in unterschiedlichen Zeiten und auf unterschiedliche Weise durch die Propheten und schließlich durch seinen Sohn. Was zeigt diese Vielfalt darüber, wie Gott Menschen begegnet?" ],
+          "applicationQuestion": [ "Wenn Gott sich durch Jesus auf einzigartige Weise offenbart hat, warum braucht die Gemeinde dann noch die prophetische Gabe (vgl. 1 Kor 14,3)?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2 Timotheus 3,15-17; Jakobus 1,17 ",
+          "passages": [ "2tim 3,15-17", "jak 1,17" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Wie können wir, gemäß dem Abschnitt, reife Christen werden und was ist die Voraussetzung dafür?" ],
+          "applicationQuestion": [ "Wie können wir beim Bibellesen verhindern nur Wissen anzusammeln, sondern uns auch davon verändern zu lassen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2 Petrus 1,18-21",
+          "passages": [ "2pet 1,18-21" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wohl vergleicht Petrus in Vers 19 das prophetische Wort mit einem Licht, das an einem dunklen Ort scheint?" ],
+          "applicationQuestion": [ "Wie können wir das prophetische Wort heute als Licht für unser persönliches Leben anwenden?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Exodus 17,14; Johannes 20,30-31",
+          "passages": [ "ex 17,14", "Joh 20,30-31" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Welche unterschiedlichen Gründe nennen die Bibeltexte dafür, dass etwas aufgeschrieben werden soll?" ],
+          "applicationQuestion": [ "Wie können wir heute die Vergesslichkeit des Menschen verhindern?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
     }
-      //{
-      //  "number": 5,
-      //  "title": "Offenbarung und Inspiration",
-      //  "memoryVerse": "„“ ()",
-      //  "description": "",
-      //  "startingQuestion": "",
-      //  "questions": [
-      //    {
-      //      "label": "",
-      //      "passages": [ "" ],
-      //      "bibleReference": "",
-      //      "bibleText": "",
-      //      "bibleQuestion": [ "" ],
-      //      "applicationQuestion": [ "" ],
-      //      "addedQuestions": [ "" ]
-      //    }
-      //  ]
-      //},
       //{
       //  "number": 6,
       //  "title": "Prophetische Schriften",
