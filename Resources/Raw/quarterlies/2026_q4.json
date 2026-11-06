@@ -236,25 +236,61 @@
           "addedQuestions": [ "" ]
         }
       ]
+    },
+    {
+      "number": 6,
+      "title": "Prophetische Schriften",
+      "memoryVerse": "„Denn was zuvor geschrieben ist, das ist uns zur Lehre geschrieben, damit wir durch Geduld und den Trost der Schrift Hoffnung haben.“ (Röm 15,4)",
+      "description": "Diese Woche haben wir uns auf die schriftliche Überlieferung der Bibel konzentriert.",
+      "startingQuestion": "•\tWie verändert sich eine Geschichte oder ein Begriff, wenn sie von verschiedenen Menschen erzählt wird („stille Post“)?",
+      "questions": [
+        {
+          "label": "Exodus 17,13-14",
+          "passages": [ "ex 17,13-14" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum befiehlt Gott Mose in Vers 14, den Sieg über Amalek aufzuschreiben, obwohl Josua selbst dabei war?" ],
+          "applicationQuestion": [ "Wenn Gott seine Botschaft bewusst schriftlich bewahren ließ, welche Bedeutung sollte die Bibel dann für unser persönliches Leben einnehmen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Jesaja 13,1",
+          "passages": [ "jes 13,1" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Woran können wir erkennen, ob eine Botschaft tatsächlich von Gott stammt oder lediglich die persönliche Überzeugung eines Menschen widerspiegelt?" ],
+          "applicationQuestion": [ "Die „Last“ ist hier das hebr. Wort für massa (מַשָּׂא) und bezeichnet einen prophetischen Ausspruch, der häufig eine Gerichtsankündigung darstellt. Wie sollten wir mit biblischen Botschaften umgehen, die unbequem sind oder unseren eigenen Vorstellungen widersprechen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Jeremia 36,1,3;17-18; Römer 16,22; Kolosser 4,18",
+          "passages": [ "jer 36,1,3", "36,17-18", "rö 16,22", "kol 4,18" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Wir erkennen hier verschiedene Rollen bei der Niederschrift eines Textes: Gott spricht zu Jeremia; Jeremia diktiert an Baruch; Baruch verfasst das Schreiben. Wer ist der Autor oder wie können wir sicherstellen, dass bei der Weitergabe biblischer Botschaften Gottes Wort im Mittelpunkt steht und nicht menschliche Vorstellungen?" ],
+          "applicationQuestion": [ "Wenn Gott seine Botschaft durch Menschen aufschreiben ließ, wie sollten wir mit vermeintlichen Widersprüchen in der Bibel umgehen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Lukas 1,1-4; Judas 14-15",
+          "passages": [ "luk 1,1-4", "jud 14-15" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Lukas recherchierte sorgfältig, während Judas eine bereits überlieferte Prophetie aufgreift. Wie erfahren wir Glaubensgewissheit aus der Schrift?" ],
+          "applicationQuestion": [ "Warum können wir der Bibel als Wort Gottes vertrauen, obwohl ihre Verfasser auch menschliche Quellen verwendeten (vgl. 2 Pt 1,21)?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2 Korinther 4,7 ",
+          "passages": [ "2 kor 4,7" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wohl vergleich Paulus die göttliche Botschaft mit einem wertvollen Schatz und sich selbst mit einem zerbrechlichen Tongefäß?" ],
+          "applicationQuestion": [ "Warum vertraut Gott seine kostbare Botschaft fehlbaren Menschen an, anstatt ausschließlich durch Engel zu sprechen?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
     }
-      //{
-      //  "number": 6,
-      //  "title": "Prophetische Schriften",
-      //  "memoryVerse": "„“ ()",
-      //  "description": "",
-      //  "startingQuestion": "",
-      //  "questions": [
-      //    {
-      //      "label": "",
-      //      "passages": [ "" ],
-      //      "bibleReference": "",
-      //      "bibleText": "",
-      //      "bibleQuestion": [ "" ],
-      //      "applicationQuestion": [ "" ],
-      //      "addedQuestions": [ "" ]
-      //    }
-      //  ]
-      //},
       //{
       //  "number": 7,
       //  "title": "Hört her!",
