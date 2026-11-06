@@ -34,8 +34,8 @@
 		<ApplicationId>de.appventist.bibletalk</ApplicationId>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>2.1.0</ApplicationDisplayVersion>
-		<ApplicationVersion>1</ApplicationVersion>
+		<ApplicationDisplayVersion>2.1.2</ApplicationDisplayVersion>
+		<ApplicationVersion>2</ApplicationVersion>
     <PackageVersion>$(ApplicationDisplayVersion)</PackageVersion>
 
 		<!-- To develop, package, and publish an app to the Microsoft Store, see: https://aka.ms/MauiTemplateUnpackaged -->

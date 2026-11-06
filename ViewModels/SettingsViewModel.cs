@@ -24,5 +24,8 @@ namespace BibleTalk.ViewModels
             if (!string.IsNullOrEmpty(value))
                 _theme.Apply(value);
         }
+
+        public string VersionText => $"Version: {AppInfo.Current.VersionString} ({AppInfo.Current.BuildString})";
+        public string CopyrightText => $"© {DateTime.Now.Year}";
     }
 }

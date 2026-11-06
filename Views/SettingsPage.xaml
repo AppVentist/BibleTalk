@@ -37,7 +37,7 @@
                 </VerticalStackLayout>
             </Border>
 
-            <!-- AppVentist VisionStatement -->
+            <!-- AppVentist VisionStatement + Logo -->
             <Border Style="{StaticResource BrandCard}">
                 <VerticalStackLayout Padding="24" Spacing="10">
                     <Border
@@ -52,29 +52,17 @@
 
                     <!-- TextColor explizit: der Standard-Label-Stil ist im
                          Light Mode schwarz und waere auf der blauen Karte
-                         kaum lesbar -->
-
-                    <Label Text="Developed by AppVentist."
-                           HorizontalTextAlignment="Center"
-                           TextColor="White"/>
-                    <Label Text="AppVentist entwickelt digitale Tools. Sie stärken den Glauben, fördern Jüngerschaft und preisen Gott durch das ewige Evangelium – bis Jesus wiederkommt!"
-                           FontSize="14"
-                           HorizontalTextAlignment="Center"
-                           TextColor="White" />
-
-                    <VerticalStackLayout Padding="0,12,0,0" Spacing="2">
-                        <Label Text="{Binding Source={x:Static maui:AppInfo.Current}, Path=VersionString, StringFormat='Version {0}'}"
-                               FontSize="12"
-                               HorizontalOptions="Center"
-                               TextColor="White" />
-                        <Label Text="AppVentist © 2026"
-                               FontSize="12"
-                               HorizontalOptions="Center"
-                               TextColor="White" />
+                         kaum lesbar -->                    
+                    <Label Text="AppVentist entwickelt digitale Tools. Sie stärken den Glauben, fördern Jüngerschaft und preisen Gott durch das ewige Evangelium – bis Jesus wiederkommt!" FontSize="14" HorizontalTextAlignment="Center" TextColor="White" />                    
+                    
+                    <!-- Stellt dar: Version (Build) z.B. "2.1.2 (7)" -->
+                    <VerticalStackLayout Padding="0,0,0,0" Spacing="2">
+                        <Label Text="developed by AppVentist" HorizontalTextAlignment="Center" TextColor="White" />
+                        <Label Text="{Binding VersionText}" FontSize="12" HorizontalOptions="Center" TextColor="White" />
+                        <Label Text="{Binding CopyrightText}" FontSize="12" HorizontalOptions="Center" TextColor="White" />                        
                     </VerticalStackLayout>
                 </VerticalStackLayout>
             </Border>
-
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
