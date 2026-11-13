@@ -290,25 +290,61 @@
           "addedQuestions": [ "" ]
         }
       ]
+    },
+    {
+      "number": 7,
+      "title": "Hört her!",
+      "memoryVerse": "„Dies widerfuhr ihnen als ein Vorbild. Es ist aber geschrieben uns zur Warnung, auf die das Ende der Zeiten gekommen ist.“ (1. Kor 10,11)",
+      "description": "Gott beruft Propheten, um lebensrettende Anweisungen zu übermitteln. Dennoch nehmen manche Menschen biblische Wahrheiten an - andere nicht.",
+      "startingQuestion": "Was fällt dir schwerer: eine unangenehme Wahrheit zu hören oder sie jemandem mitzuteilen? Warum?",
+      "questions": [
+        {
+          "label": "4. Mose 14,4-11",
+          "passages": [ "4 mo 14,4-11" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wohl beurteilen Josua und Kaleb das verheißene Land anders als die übrigen Kundschafter, obwohl alle dasselbe gesehen haben?" ],
+          "applicationQuestion": [ "Was denkst du, warum fällt es Menschen manchmal schwer, eine Botschaft Gottes anzunehmen, obwohl sie seine Führung bereits erlebt haben?" ],
+          "addedQuestions": [ "Woran können wir womöglich erkennen, ob eine unbequeme Botschaft tatsächlich von Gott kommt oder sie lediglich eine menschliche Meinung ist?" ]
+        },
+        {
+          "label": "Jeremia 36,20-26",
+          "passages": [ "jer 36,20-26" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wohl lässt König Jojakim die Schriftrolle stückweise verbrennen, anstatt auf die Botschaft Jeremias zu hören?" ],
+          "applicationQuestion": [ "Wie können wir verhindern, unangenehme Aussagen der Bibel innerlich abzulehnen wie Jojakim die Schriftrolle?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "2. Chroniker 36,15-16",
+          "passages": [ "2 chr 36,15-16" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum sandte Gott seinem Volk immer wieder Propheten, obwohl die Menschen ihre Botschaften ablehnten?" ],
+          "applicationQuestion": [ "Wie könnten wir auf Kritik aus der Bibel reagieren?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Matthäus 23,29-35",
+          "passages": [ "mat 23,29-35" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum kritisiert Jesus die Schriftgelehrten und Pharisäer dafür, dass sie die Gräber der Propheten schmücken?" ],
+          "applicationQuestion": [ "Was zeigt uns die Warnung Jesu darüber, wie wir mit prophetischen Botschaften umgehen sollten – vor allem, wenn sie unseren eigenen Überzeugungen widersprechen?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "1. Korinther 10,6-12",
+          "passages": [ "1 kor 10,6-12" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum wurden scheinbar nach Paulus die Fehler Israels in der Bibel aufgeschrieben und wovor warnt er?" ],
+          "applicationQuestion": [ "Warum können offensichtlich selbst Menschen, die Gottes Wirken erlebt haben und die Bibel gut kennen, geistliche scheitern?" ],
+          "addedQuestions": [ "" ]
+        }
+      ]
     }
-      //{
-      //  "number": 7,
-      //  "title": "Hört her!",
-      //  "memoryVerse": "„“ ()",
-      //  "description": "",
-      //  "startingQuestion": "",
-      //  "questions": [
-      //    {
-      //      "label": "",
-      //      "passages": [ "" ],
-      //      "bibleReference": "",
-      //      "bibleText": "",
-      //      "bibleQuestion": [ "" ],
-      //      "applicationQuestion": [ "" ],
-      //      "addedQuestions": [ "" ]
-      //    }
-      //  ]
-      //},
       //{
       //  "number": 8,
       //  "title": "Auslegung prophetischer Schriften",
