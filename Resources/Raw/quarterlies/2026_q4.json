@@ -344,25 +344,43 @@
           "addedQuestions": [ "" ]
         }
       ]
+    },
+    {
+      "number": 8,
+      "title": "Auslegung prophetischer Schriften",
+      "memoryVerse": "„Und er fing an bei Mose und allen Propheten und legte ihnen aus, was in allen Schriften von ihm gesagt war.“ (Lk 24,27)",
+      "description": "Die Bibel kann falsch und richtig verstanden werden. In dieser Woche haben wir uns mit dem korrekten Verständnis prophetischer Schriften beschäftigt.",
+      "startingQuestion": "Was ist gefährlicher: die Bibel nicht zu kennen oder sie falsch zu verstehen?",
+      "questions": [
+        {
+          "label": "Lukas 10,25-28",
+          "passages": [ "lk 10,25-28" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Im Gespräch mit einem Theologen fragte Jesus nicht, „Was glaubst du?“, sondern „Was steht im Gesetz? Was liest du?“1. Was hat wohl Jesus damit gemeint und was möchte er uns offensichtlich dadurch deutlich machen?" ],
+          "applicationQuestion": [ "Beim Bibellesen kann es zu Meinungsverschiedenheiten kommen. Wie kommen sie womöglich zu Stand?", "Wie kann es sein, dass man biblische Inhalte kennt und trotzdem geistlich tot ist?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Matthäus 4,5-6; Psalm 91,11-12",
+          "passages": [ "mt 4,5-6", "ps 91,11-12" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Satan verwendet ausgerechnet einen Bibeltext, um Jesus zu verführen. Welches grundlegende Auslegungsprinzip lernen wir hier durch die Entgegnung Jesu?", "Welchen Teil des Bibeltextes in V. 6 hat Satan ausgelassen und so scheinbar die Botschaft vom verheißenen Schutz Gottes verdreht? Welche „falsche“ Bedeutung hat er in den Text hineingelegt?" ],
+          "applicationQuestion": [ "Welche Gefahren können entstehen, wenn wir bei der Auslegung prophetischer Texte einzelne Verse betonen – ohne den Kontext zu beachten?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Lukas 24,25-27.44-49",
+          "passages": [ "lk 24,25-27", "lk 24,44-49" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum konnten die Jünger die prophetischen Aussagen über den Messias zunächst nicht verstehen, obwohl sie die Heilige Schrift kannten?" ],
+          "applicationQuestion": [ "Wie geht Jesus vor und welche Auswirkungen hat die Bibelstunde auf die Jünger?" ],
+          "addedQuestions": [ "Wie können wir verhindern in unserem Glaubensleben „blind“ für Gottes Botschaft zu sein?" ]
+        }        
+      ]
     }
-      //{
-      //  "number": 8,
-      //  "title": "Auslegung prophetischer Schriften",
-      //  "memoryVerse": "„“ ()",
-      //  "description": "",
-      //  "startingQuestion": "",
-      //  "questions": [
-      //    {
-      //      "label": "",
-      //      "passages": [ "" ],
-      //      "bibleReference": "",
-      //      "bibleText": "",
-      //      "bibleQuestion": [ "" ],
-      //      "applicationQuestion": [ "" ],
-      //      "addedQuestions": [ "" ]
-      //    }
-      //  ]
-      //},
       //{
       //  "number": 9,
       //  "title": "Propheten prüfen",
