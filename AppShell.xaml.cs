@@ -15,6 +15,7 @@ namespace BibleTalk
             Routing.RegisterRoute(nameof(QuestionsPage), typeof(QuestionsPage));
             Routing.RegisterRoute(nameof(LessonPage), typeof(LessonPage));
             Routing.RegisterRoute(nameof(DiscoverPage), typeof(DiscoverPage));
+            Routing.RegisterRoute(nameof(ArchivePage), typeof(ArchivePage));
         }
 
         // Tippen auf das Logo: zurück zur Heft-Übersicht (MainPage als Wurzel)

@@ -11,6 +11,7 @@ public partial class MainViewModel : ObservableObject
     private readonly IContentService _content;
     private readonly List<Series> _all = [];
     private bool _loaded;
+    private bool _isFetching;
     public MainViewModel(IContentService content) => _content = content;
     public ObservableCollection<SeriesItemViewModel> Quarterlies { get; } = [];
     public ObservableCollection<ConversationItemViewModel> Conversations { get; } = [];
@@ -26,11 +27,15 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand] private Task RefreshAsync() => FetchAsync(true);
     private async Task FetchAsync(bool force)
     {
-        if (IsLoading || IsRefreshing) return;
+        // The RefreshView sets IsRefreshing before invoking RefreshCommand.
+        if (_isFetching) return;
         if (_loaded && !force) { UpdateResume(); return; }
-        IsRefreshing = force; IsLoading = !force; ErrorMessage = null;
+        _isFetching = true;
         try
         {
+            IsRefreshing = force;
+            IsLoading = !force;
+            ErrorMessage = null;
             var groups = await Task.WhenAll(
                 _content.GetSeriesAsync("quarterlies/index.json", SeriesKind.Quarterly),
                 _content.GetSeriesAsync("conversations/index.json", SeriesKind.Conversation),
@@ -38,7 +43,8 @@ public partial class MainViewModel : ObservableObject
                 _content.GetSeriesAsync("homegroups/index.json", SeriesKind.Homegroup));
             _all.Clear(); _all.AddRange(groups.SelectMany(x => x).Where(x => x.Topics.Count > 0));
             Quarterlies.Clear();
-            foreach (var series in _all.Where(x => x.Kind == SeriesKind.Quarterly)) Quarterlies.Add(new(series));
+            foreach (var series in _all.Where(x => x.Kind == SeriesKind.Quarterly).Take(4))
+                Quarterlies.Add(new(series));
             Conversations.Clear();
             foreach (var series in _all.Where(x => x.Kind == SeriesKind.Conversation))
                 foreach (var topic in series.Topics.Where(x => x.HasContent).Take(3 - Conversations.Count))
@@ -47,7 +53,12 @@ public partial class MainViewModel : ObservableObject
             if (Quarterlies.Count == 0 && Conversations.Count == 0) ErrorMessage = "Inhalte konnten nicht geladen werden. Bitte erneut versuchen.";
         }
         catch (Exception ex) { System.Diagnostics.Debug.WriteLine(ex); ErrorMessage = "Inhalte konnten nicht geladen werden. Bitte erneut versuchen."; }
-        finally { IsLoading = false; IsRefreshing = false; }
+        finally
+        {
+            IsLoading = false;
+            IsRefreshing = false;
+            _isFetching = false;
+        }
     }
     private void UpdateResume()
     {
@@ -58,4 +69,12 @@ public partial class MainViewModel : ObservableObject
     }
     [RelayCommand]
     private Task DiscoverAsync() => Shell.Current.GoToAsync(nameof(DiscoverPage), new Dictionary<string, object> { ["SeriesList"] = _all.ToArray() });
+
+    [RelayCommand]
+    private Task OpenArchiveAsync() => Shell.Current.GoToAsync(
+        nameof(ArchivePage),
+        new ShellNavigationQueryParameters
+        {
+            ["SeriesList"] = _all.Where(series => series.Kind == SeriesKind.Quarterly).ToArray()
+        });
 }

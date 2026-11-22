@@ -46,6 +46,8 @@ namespace BibleTalk
             builder.Services.AddTransient<MainViewModel>();
             builder.Services.AddTransient<DiscoverPage>();
             builder.Services.AddTransient<DiscoverViewModel>();
+            builder.Services.AddTransient<ArchivePage>();
+            builder.Services.AddTransient<ArchiveViewModel>();
             builder.Services.AddTransient<SeriesPage>();
             builder.Services.AddTransient<SeriesViewModel>();
             builder.Services.AddTransient<SettingsPage>();
