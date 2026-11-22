@@ -67,9 +67,14 @@ public partial class MainViewModel : ObservableObject
         var topic = series?.Topics.FirstOrDefault(x => x.Number == last.Number);
         Resume = series is not null && topic is not null ? new(series, topic) : null;
     }
+    
     [RelayCommand]
-    private Task DiscoverAsync() => Shell.Current.GoToAsync(nameof(DiscoverPage), new Dictionary<string, object> { ["SeriesList"] = _all.ToArray() });
-
+    private Task DiscoverAsync() => Shell.Current.GoToAsync(
+        nameof(DiscoverPage),
+        new ShellNavigationQueryParameters
+        {
+            ["SeriesList"] = _all.Where(series => series.Kind == SeriesKind.Homegroup || series.Kind == SeriesKind.Discipleship).ToArray()
+        });
     [RelayCommand]
     private Task OpenArchiveAsync() => Shell.Current.GoToAsync(
         nameof(ArchivePage),

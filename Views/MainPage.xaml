@@ -48,8 +48,7 @@
        <VerticalStackLayout Spacing="6">
      <Label Text="Themen für den Hauskreis" FontSize="24" FontAttributes="Bold" />
      <Label Text="Geistliche Fragen. Biblische Antworten." FontSize="14" TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
-    </VerticalStackLayout>
-    
+    </VerticalStackLayout>    
        <VerticalStackLayout BindableLayout.ItemsSource="{Binding Conversations}" Spacing="0">
             <BindableLayout.ItemTemplate><DataTemplate x:DataType="vm:ConversationItemViewModel"><controls:ConversationCard /></DataTemplate></BindableLayout.ItemTemplate>
         </VerticalStackLayout>

@@ -6,7 +6,7 @@ public partial class DiscoverViewModel : ObservableObject, IQueryAttributable
 {
     private readonly List<ConversationItemViewModel> _all = [];
     public ObservableCollection<ConversationItemViewModel> Items { get; } = [];
-    public IReadOnlyList<string> Categories { get; } = ["Alle Themen", "Alltag", "Glaubensfragen", "Bibel entdecken", "Standardausgabe"];
+    public IReadOnlyList<string> Categories { get; } = ["Alle Themen", "Alltag", "Glaubensfragen", "Bibel entdecken"];
     [ObservableProperty] private string searchText = "";
     [ObservableProperty] private string selectedCategory = "Alle Themen";
     [ObservableProperty] private bool isEmpty;
