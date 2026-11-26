@@ -390,7 +390,7 @@
       "questions": [
         {
           "label": "Numeri 12,1-8",
-          "passages": [ "num 12,1-8" ],
+          "passages": [ "4. mose 12,1-8" ],
           "bibleReference": "",
           "bibleText": "",
           "bibleQuestion": [ "Durch den Sündenfall ist der Mensch von Gott getrennt. Wie kommuniziert Gott dennoch mit den Menschen?" ],
@@ -399,7 +399,7 @@
         },
         {
           "label": "Deuteronomium 13,1-6, 1 Johannes 4,1-3",
-          "passages": [ "deut 13,1-6", "1 joh 4,1-3" ],
+          "passages": [ "5. mose 13,1-6", "1 joh 4,1-3" ],
           "bibleReference": "",
           "bibleText": "",
           "bibleQuestion": [ "Gott warnt vor falschen Propheten. Warum soll Israel Leuten nicht glauben, obwohl ihre angekündigten Zeichen tatsächlich eintreffen?" ],
