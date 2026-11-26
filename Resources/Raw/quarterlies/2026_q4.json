@@ -390,7 +390,7 @@
       "questions": [
         {
           "label": "Numeri 12,1-8",
-          "passages": [ "nu 12,1-8" ],
+          "passages": [ "num 12,1-8" ],
           "bibleReference": "",
           "bibleText": "",
           "bibleQuestion": [ "Durch den Sündenfall ist der Mensch von Gott getrennt. Wie kommuniziert Gott dennoch mit den Menschen?" ],
@@ -399,7 +399,7 @@
         },
         {
           "label": "Deuteronomium 13,1-6, 1 Johannes 4,1-3",
-          "passages": [ "de 13,1-6", "1 jo 4,1-3" ],
+          "passages": [ "deut 13,1-6", "1 joh 4,1-3" ],
           "bibleReference": "",
           "bibleText": "",
           "bibleQuestion": [ "Gott warnt vor falschen Propheten. Warum soll Israel Leuten nicht glauben, obwohl ihre angekündigten Zeichen tatsächlich eintreffen?" ],
@@ -408,7 +408,7 @@
         },
         {
           "label": "Jesaja 8,16-23, 1 Thessalonicher 5,19-22",
-          "passages": [ "isa 8,16-23", "1 th 5,19-22" ],
+          "passages": [ "jes 8,16-23", "1 th 5,19-22" ],
           "bibleReference": "",
           "bibleText": "",
           "bibleQuestion": [ "Warum sind Wahrsager und Totenbeschwörer oft verlockender für die Menschen als Gottes „Weisung und Zeugnis“ (Weisung, hebr. torah meint Unterweisung und nicht ausschließlich die Zehn Gebote. Zeugnis, hebr. te'udah. Es bezeichnet Gottes Reden durch einen Propheten)?" ],
@@ -417,7 +417,7 @@
         },
         {
           "label": "Matthäus 7,16.22-24",
-          "passages": [ "mat 7,16.22-24" ],
+          "passages": [ "mat 7,16", "mat 7,22-24" ],
           "bibleReference": "",
           "bibleText": "",
           "bibleQuestion": [ "Warum warnt Jesus davor, Menschen allein aufgrund ihrer prophetischen Aussagen und Wunder als echte Diener Gottes anzuerkennen?" ],
