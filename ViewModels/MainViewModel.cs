@@ -14,14 +14,18 @@ public partial class MainViewModel : ObservableObject
     private bool _isFetching;
     public MainViewModel(IContentService content) => _content = content;
     public ObservableCollection<SeriesItemViewModel> Quarterlies { get; } = [];
-    public ObservableCollection<ConversationItemViewModel> Conversations { get; } = [];
     [ObservableProperty] private bool isLoading;
     [ObservableProperty] private bool isRefreshing;
     [ObservableProperty] private ConversationItemViewModel? resume;
     [ObservableProperty] private string? errorMessage;
     public bool HasResume => Resume is not null;
+    public bool HasNoResume => Resume is null;
     public bool HasError => !string.IsNullOrEmpty(ErrorMessage);
-    partial void OnResumeChanged(ConversationItemViewModel? value) => OnPropertyChanged(nameof(HasResume));
+    partial void OnResumeChanged(ConversationItemViewModel? value)
+    {
+        OnPropertyChanged(nameof(HasResume));
+        OnPropertyChanged(nameof(HasNoResume));
+    }
     partial void OnErrorMessageChanged(string? value) => OnPropertyChanged(nameof(HasError));
     [RelayCommand] private Task LoadAsync() => FetchAsync(false);
     [RelayCommand] private Task RefreshAsync() => FetchAsync(true);
@@ -45,12 +49,10 @@ public partial class MainViewModel : ObservableObject
             Quarterlies.Clear();
             foreach (var series in _all.Where(x => x.Kind == SeriesKind.Quarterly).Take(4))
                 Quarterlies.Add(new(series));
-            Conversations.Clear();
-            foreach (var series in _all.Where(x => x.Kind == SeriesKind.Conversation))
-                foreach (var topic in series.Topics.Where(x => x.HasContent).Take(3 - Conversations.Count))
-                    Conversations.Add(new(series, topic));
             _loaded = true; UpdateResume();
-            if (Quarterlies.Count == 0 && Conversations.Count == 0) ErrorMessage = "Inhalte konnten nicht geladen werden. Bitte erneut versuchen.";
+            if (Quarterlies.Count == 0 && !_all.Any(series =>
+                    series.Kind == SeriesKind.Conversation && series.Topics.Any(topic => topic.HasContent)))
+                ErrorMessage = "Inhalte konnten nicht geladen werden. Bitte erneut versuchen.";
         }
         catch (Exception ex) { System.Diagnostics.Debug.WriteLine(ex); ErrorMessage = "Inhalte konnten nicht geladen werden. Bitte erneut versuchen."; }
         finally
@@ -69,11 +71,12 @@ public partial class MainViewModel : ObservableObject
     }
     
     [RelayCommand]
-    private Task DiscoverAsync() => Shell.Current.GoToAsync(
+    private Task DiscoverAsync(string? category) => Shell.Current.GoToAsync(
         nameof(DiscoverPage),
         new ShellNavigationQueryParameters
         {
-            ["SeriesList"] = _all.Where(series => series.Kind == SeriesKind.Homegroup || series.Kind == SeriesKind.Discipleship).ToArray()
+            ["Category"] = category ?? "",
+            ["SeriesList"] = _all.Where(series => series.Kind is SeriesKind.Homegroup or SeriesKind.Discipleship or SeriesKind.Conversation).ToArray()
         });
     [RelayCommand]
     private Task OpenArchiveAsync() => Shell.Current.GoToAsync(

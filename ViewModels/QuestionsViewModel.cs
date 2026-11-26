@@ -152,6 +152,7 @@ namespace BibleTalk.ViewModels
                 // keinen eindeutigen Schlüssel und die Notiz landete unter
                 // einem Namen, der später mit einem anderen Heft kollidiert.
                 var canStoreNotes = _series is not null && question.ShowNote;
+                var firstInSection = true;
 
                 void Add(IEnumerable<string>? texts, QuestionKind kind)
                 {
@@ -187,7 +188,11 @@ namespace BibleTalk.ViewModels
                             _notes,
                             noteKey,
                             question.NotePrompt,
-                            canStoreNotes));
+                            canStoreNotes)
+                        {
+                            IsFirstInSection = firstInSection
+                        });
+                        firstInSection = false;
                     }
                 }
 

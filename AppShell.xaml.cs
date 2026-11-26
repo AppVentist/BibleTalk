@@ -13,6 +13,7 @@ namespace BibleTalk
             Routing.RegisterRoute(nameof(SeriesPage), typeof(SeriesPage));
             Routing.RegisterRoute(nameof(TopicPage), typeof(TopicPage));
             Routing.RegisterRoute(nameof(QuestionsPage), typeof(QuestionsPage));
+            Routing.RegisterRoute(nameof(ThemeReadingPage), typeof(ThemeReadingPage));
             Routing.RegisterRoute(nameof(LessonPage), typeof(LessonPage));
             Routing.RegisterRoute(nameof(DiscoverPage), typeof(DiscoverPage));
             Routing.RegisterRoute(nameof(ArchivePage), typeof(ArchivePage));

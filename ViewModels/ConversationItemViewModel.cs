@@ -18,6 +18,9 @@ public partial class ConversationItemViewModel
     public string ResumeDetails => $"Zuletzt geöffnet · {Series.TopicWord} {Topic.Number}";
     public string Symbol => Category switch { "Alltag" => "☀", "Glaubensfragen" => "♡", _ => "◇" };
     [RelayCommand]
+    private Task ReadAsync() => TopicItemViewModel.OpenContentAsync(Series, Topic);
+
+    [RelayCommand]
     private Task OpenAsync() => Shell.Current.GoToAsync(nameof(TopicPage), new Dictionary<string, object> {
         ["Series"] = Series, ["Topic"] = Topic });
 }

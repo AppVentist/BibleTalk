@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:BibleTalk.ViewModels" xmlns:controls="clr-namespace:BibleTalk.Views.Controls" x:Class="BibleTalk.Views.DiscoverPage" x:DataType="vm:DiscoverViewModel" Title="Alle Themen entdecken">
- <Grid Padding="18" RowDefinitions="Auto,Auto,Auto,*" RowSpacing="12">
-  <SearchBar Placeholder="Thema oder Bibelstelle suchen" Text="{Binding SearchText}" />
-  <Picker Grid.Row="1" Title="Kategorie" ItemsSource="{Binding Categories}" SelectedItem="{Binding SelectedCategory}" />
-  <Label Grid.Row="2" Text="Keine passenden Themen gefunden." IsVisible="{Binding IsEmpty}" />
-  <CollectionView Grid.Row="3" ItemsSource="{Binding Items}" SelectionMode="None">
-   <CollectionView.ItemTemplate><DataTemplate x:DataType="vm:ConversationItemViewModel"><controls:ConversationCard /></DataTemplate></CollectionView.ItemTemplate>
-  </CollectionView>
- </Grid>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:BibleTalk.ViewModels"
+             x:Class="BibleTalk.Views.DiscoverPage"
+             x:DataType="vm:DiscoverViewModel"
+             Title="Themen entdecken">
+    <Grid Padding="18" RowDefinitions="Auto,Auto,*" RowSpacing="12">
+        <VerticalStackLayout Spacing="4">
+            <Label Text="{Binding Heading}" FontSize="25" FontAttributes="Bold" SemanticProperties.HeadingLevel="Level1" />
+            <Label Text="{Binding Introduction}" FontSize="14"
+                   TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+        </VerticalStackLayout>
+        <SearchBar Grid.Row="1" Placeholder="Thema oder Bibelstelle suchen" Text="{Binding SearchText}" />
+        <CollectionView Grid.Row="2" ItemsSource="{Binding Items}" SelectionMode="None" EmptyView="{Binding EmptyMessage}">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="8" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="vm:DiscoverEntry">
+                    <Border StrokeThickness="0" StrokeShape="RoundRectangle 12" Padding="10,4"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource LightSurface}, Dark={StaticResource DarkSurface}}">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding OpenCommand}" />
+                        </Border.GestureRecognizers>
+                        <Grid ColumnDefinitions="Auto,*,Auto" MinimumHeightRequest="52">
+                            <Image Source="{Binding CoverImage}" IsVisible="{Binding HasCover}"
+                                   WidthRequest="34" HeightRequest="46" Aspect="AspectFit" Margin="0,4,10,4" />
+                            <VerticalStackLayout Grid.Column="1" Spacing="3" VerticalOptions="Center" Margin="0,4">
+                                <Label Text="{Binding Title}" FontSize="16" FontAttributes="Bold" />
+                                <Label Text="{Binding Subtitle}" IsVisible="{Binding HasSubtitle}"
+                                       MaxLines="2" LineBreakMode="TailTruncation" FontSize="13"
+                                       TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+                            </VerticalStackLayout>
+                            <Button Grid.Column="2" Text="›" Command="{Binding OpenCommand}"
+                                    SemanticProperties.Description="{Binding Title}" FontSize="22"
+                                    BackgroundColor="Transparent" WidthRequest="44" Padding="0"
+                                    TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
 </ContentPage>

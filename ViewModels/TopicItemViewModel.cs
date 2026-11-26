@@ -60,27 +60,24 @@ namespace BibleTalk.ViewModels
         
         // Von der TopicPage: Button unter dem Thema.
         //
-        // Das ist die EINZIGE Weiche zwischen den Darstellungsformen.
-        // Kommt ein weiterer Bereich dazu, wird hier eine Zeile ergaenzt -
-        // nirgends sonst.
         [RelayCommand]
-        private async Task OpenQuestionsAsync()
+        private Task OpenQuestionsAsync() => OpenContentAsync(_series, Topic);
+
+        internal static Task OpenContentAsync(Series series, Topic topic)
         {
-            ReadingHistory.Save(_series, Topic);
-            // Jüngerschaft nur dann auf die LessonPage schicken, wenn die
-            // Einheit auch wirklich "sections" mitbringt. Bestehende Dateien
-            // im Frage-Format laufen so unveraendert weiter.
-            var route = (_series.Kind, Topic.HasSections) switch
+            ReadingHistory.Save(series, topic);
+            var route = (series.Kind, topic.HasSections) switch
             {
-                (SeriesKind.Discipleship, true) => nameof(LessonPage),
-                _ => nameof(QuestionsPage)
+                (SeriesKind.Quarterly, _) => nameof(QuestionsPage),
+                (_, true) => nameof(LessonPage),
+                _ => nameof(ThemeReadingPage)
             };
 
-            await Shell.Current.GoToAsync(route,
-                new Dictionary<string, object>
+            return Shell.Current.GoToAsync(route,
+                new ShellNavigationQueryParameters
                 {
-                    ["Topic"] = Topic,
-                    ["Series"] = _series
+                    ["Topic"] = topic,
+                    ["Series"] = series
                 });
         }
     }

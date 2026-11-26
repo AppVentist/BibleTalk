@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:BibleTalk.ViewModels"
+             xmlns:controls="clr-namespace:BibleTalk.Views.Controls"
+             x:Class="BibleTalk.Views.ThemeReadingPage"
+             x:DataType="vm:QuestionsViewModel"
+             Title="Thema lesen">
+    <ScrollView>
+        <VerticalStackLayout Padding="24,12,24,28" Spacing="14">
+            <Label Text="{Binding Topic.Title}" FontSize="26" FontAttributes="Bold"
+                   SemanticProperties.HeadingLevel="Level1" />
+            <Label Text="{Binding Topic.Description}" IsVisible="{Binding Topic.HasDescription}"
+                   FontSize="16" LineHeight="1.4" />
+            <Label Text="{Binding Topic.StartingQuestion}" IsVisible="{Binding Topic.HasStartingQuestion}"
+                   FontSize="16" FontAttributes="Italic" />
+            <Label Text="{Binding Topic.MemoryVerse}" IsVisible="{Binding Topic.HasMemoryVerse}"
+                   FontSize="15" FontAttributes="Italic" />
+            <Label Text="Die Inhalte werden demnächst veröffentlicht." IsVisible="{Binding IsEmpty}" />
+            <VerticalStackLayout BindableLayout.ItemsSource="{Binding Steps}" Spacing="16">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate x:DataType="vm:QuestionStepViewModel">
+                        <VerticalStackLayout Spacing="8">
+                            <VerticalStackLayout IsVisible="{Binding IsFirstInSection}" Spacing="8" Margin="0,8,0,0">
+                                <Label Text="{Binding ReferenceDisplay}" FontSize="18" FontAttributes="Bold"
+                                       SemanticProperties.HeadingLevel="Level2" />
+                                <controls:BibleTextCard />
+                            </VerticalStackLayout>
+                            <Label Text="{Binding KindLabel}" FontSize="13" FontAttributes="Bold"
+                                   TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+                            <Label Text="{Binding Text}" FontSize="16" LineHeight="1.4" />
+                            <VerticalStackLayout IsVisible="{Binding ShowNote}" Spacing="4">
+                                <Label Text="{Binding NotePrompt}" FontSize="13" />
+                                <Border Padding="6,0" StrokeShape="RoundRectangle 10"
+                                        Stroke="{AppThemeBinding Light={StaticResource LightOutline}, Dark={StaticResource DarkOutline}}">
+                                    <Editor Text="{Binding Note, Mode=TwoWay}" Placeholder="Hier schreiben …"
+                                            AutoSize="TextChanges" MinimumHeightRequest="56" FontSize="15"
+                                            BackgroundColor="Transparent" />
+                                </Border>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

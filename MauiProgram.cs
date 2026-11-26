@@ -55,6 +55,7 @@ namespace BibleTalk
             builder.Services.AddTransient<TopicPage>();
             builder.Services.AddTransient<TopicViewModel>();
             builder.Services.AddTransient<QuestionsPage>();
+            builder.Services.AddTransient<ThemeReadingPage>();
             builder.Services.AddTransient<QuestionsViewModel>();
             builder.Services.AddTransient<LessonPage>();
             builder.Services.AddTransient<LessonViewModel>();

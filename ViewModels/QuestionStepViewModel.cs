@@ -39,6 +39,7 @@ namespace BibleTalk.ViewModels
         public int Number { get; }
 
         public int SectionNumber { get; }
+        public bool IsFirstInSection { get; init; }
         public string SectionLabel { get; }
         public string? BibleReference { get; }
 

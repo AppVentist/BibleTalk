@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:BibleTalk.ViewModels" xmlns:controls="clr-namespace:BibleTalk.Views.Controls" x:Class="BibleTalk.Views.MainPage" x:DataType="vm:MainViewModel">
- <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
-  <ScrollView>
-   <VerticalStackLayout Padding="18,12,18,24" Spacing="18">
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:BibleTalk.ViewModels" x:Class="BibleTalk.Views.MainPage" x:DataType="vm:MainViewModel">
+    <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+        <ScrollView>
+            <VerticalStackLayout Padding="18,12,18,24" Spacing="18">
                 <Grid ColumnDefinitions="*,Auto">
                     <Label Text="STANDARDAUSGABE" FontAttributes="Bold" FontSize="14" VerticalOptions="Center" />
                     <Label Grid.Column="1" Text="Archiv &gt;" TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" FontSize="14" VerticalOptions="Center">
@@ -11,57 +11,109 @@
                         </Label.GestureRecognizers>
                     </Label>
                 </Grid>
-      <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
-    <VerticalStackLayout IsVisible="{Binding HasError}" Spacing="8">
-     <Label Text="{Binding ErrorMessage}" />
-     <Button Text="Erneut laden" Command="{Binding RefreshCommand}" />
-    </VerticalStackLayout>
-    <CollectionView ItemsSource="{Binding Quarterlies}" ItemsLayout="HorizontalList" HeightRequest="265" SelectionMode="None">
-     <CollectionView.ItemTemplate>
-      <DataTemplate x:DataType="vm:SeriesItemViewModel">
-       <VerticalStackLayout WidthRequest="150" Margin="0,0,14,0" Spacing="5">
-        <Border StrokeShape="RoundRectangle 12" HeightRequest="205" Stroke="Transparent">
-         <ImageButton Source="{Binding CoverImage}" Aspect="AspectFill" Command="{Binding OpenCommand}" SemanticProperties.Description="{Binding Title}" />
-        </Border>
-        <Label Text="{Binding Title}" FontSize="13" FontAttributes="Bold" MaxLines="2" LineBreakMode="TailTruncation" />
-        <Label Text="{Binding Subtitle}" FontSize="11" />
-       </VerticalStackLayout>
-      </DataTemplate>
-     </CollectionView.ItemTemplate>
-    </CollectionView>
-    <VerticalStackLayout IsVisible="{Binding HasResume}" Spacing="8">
-     <Label Text="WEITERLESEN" FontSize="13" FontAttributes="Bold" />
-     <Border Padding="12" StrokeShape="RoundRectangle 16" Stroke="{AppThemeBinding Light={StaticResource LightOutline}, Dark={StaticResource DarkOutline}}" BackgroundColor="{AppThemeBinding Light={StaticResource LightSurface}, Dark={StaticResource DarkSurface}}">
-      <Grid BindingContext="{Binding Resume}" x:DataType="vm:ConversationItemViewModel" ColumnDefinitions="48,*,32" ColumnSpacing="12">
-       <Grid.GestureRecognizers><TapGestureRecognizer Command="{Binding OpenCommand}" /></Grid.GestureRecognizers>
-       <Border StrokeShape="RoundRectangle 4" Stroke="Transparent">
-          <Image Source="{Binding CoverImage}" HeightRequest="60" Aspect="AspectFill" />
-       </Border>
-       <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="4">
-        <Label Text="{Binding Title}" FontSize="15" FontAttributes="Bold" />
-        <Label Text="{Binding ResumeDetails}" FontSize="12" />
-       </VerticalStackLayout>
-       <Button Grid.Column="2" Text="›" Padding="0" FontSize="24" BackgroundColor="Transparent" Command="{Binding OpenCommand}" TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" SemanticProperties.Description="Weiterlesen" />
-      </Grid>
-     </Border>
-    </VerticalStackLayout>    
-       <VerticalStackLayout Spacing="6">
-     <Label Text="Themen für den Hauskreis" FontSize="24" FontAttributes="Bold" />
-     <Label Text="Geistliche Fragen. Biblische Antworten." FontSize="14" TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
-    </VerticalStackLayout>    
-       <VerticalStackLayout BindableLayout.ItemsSource="{Binding Conversations}" Spacing="0">
-            <BindableLayout.ItemTemplate><DataTemplate x:DataType="vm:ConversationItemViewModel"><controls:ConversationCard /></DataTemplate></BindableLayout.ItemTemplate>
-        </VerticalStackLayout>
-            <Button Text="Alle Themen entdecken" Command="{Binding DiscoverCommand}" BackgroundColor="Transparent" BorderWidth="1" CornerRadius="12" TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" BorderColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
-                <VerticalStackLayout>         
-       <Label Text="developed by AppVentist."
-                HorizontalTextAlignment="Center"
-                TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
-                <Label Text="recomended by bw.adventisten.de"
-                HorizontalTextAlignment="Center"
-                TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
+                <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" />
+                <VerticalStackLayout IsVisible="{Binding HasError}" Spacing="8">
+                    <Label Text="{Binding ErrorMessage}" />
+                    <Button Text="Erneut laden" Command="{Binding RefreshCommand}" />
                 </VerticalStackLayout>
-            </VerticalStackLayout>            
+                <CollectionView ItemsSource="{Binding Quarterlies}" ItemsLayout="HorizontalList" HeightRequest="265" SelectionMode="None">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="vm:SeriesItemViewModel">
+                            <VerticalStackLayout WidthRequest="150" Margin="0,0,14,0" Spacing="5">
+                                <Border StrokeShape="RoundRectangle 12" HeightRequest="205" Stroke="Transparent">
+                                    <ImageButton Source="{Binding CoverImage}" Aspect="AspectFill" Command="{Binding OpenCommand}" SemanticProperties.Description="{Binding Title}" />
+                                </Border>
+                                <Label Text="{Binding Title}" FontSize="13" FontAttributes="Bold" MaxLines="2" LineBreakMode="TailTruncation" />
+                                <Label Text="{Binding Subtitle}" FontSize="11" />
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="WEITERLESEN" FontSize="13" FontAttributes="Bold" />
+                    <Label Text="Noch kein Thema geöffnet." IsVisible="{Binding HasNoResume}" FontSize="14" TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+                    <Border IsVisible="{Binding HasResume}" Padding="12" StrokeShape="RoundRectangle 16" Stroke="{AppThemeBinding Light={StaticResource LightOutline}, Dark={StaticResource DarkOutline}}" BackgroundColor="{AppThemeBinding Light={StaticResource LightSurface}, Dark={StaticResource DarkSurface}}">
+                        <Grid BindingContext="{Binding Resume, x:DataType=vm:MainViewModel}" x:DataType="vm:ConversationItemViewModel" ColumnDefinitions="48,*,32" ColumnSpacing="12">
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OpenCommand}" />
+                            </Grid.GestureRecognizers>
+                            <Border StrokeShape="RoundRectangle 4" Stroke="Transparent">
+                                <Image Source="{Binding CoverImage}" HeightRequest="60" Aspect="AspectFill" />
+                            </Border>
+                            <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="4">
+                                <Label Text="{Binding Title}" FontSize="15" FontAttributes="Bold" />
+                                <Label Text="{Binding ResumeDetails}" FontSize="12" />
+                            </VerticalStackLayout>
+                            <Button Grid.Column="2" Text="›" Padding="0" FontSize="24" BackgroundColor="Transparent" Command="{Binding OpenCommand}" TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" SemanticProperties.Description="Weiterlesen" />
+                        </Grid>
+                    </Border>
+                </VerticalStackLayout>
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Weitere Themen für den Hauskreis" FontSize="22" FontAttributes="Bold" />
+                    <Border StrokeThickness="0" StrokeShape="RoundRectangle 12" Padding="12,4"
+                            BackgroundColor="{AppThemeBinding Light=#E3F0E8, Dark=#243930}">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding DiscoverCommand}" CommandParameter="Alltag" />
+                        </Border.GestureRecognizers>
+                        <Grid ColumnDefinitions="28,*,44" ColumnSpacing="8" MinimumHeightRequest="62">
+                            <Label Text="☀" FontSize="20" VerticalOptions="Center" AutomationProperties.IsInAccessibleTree="False" />
+                            <VerticalStackLayout Grid.Column="1" Spacing="2" VerticalOptions="Center" Margin="0,6">
+                                <Label Text="Alltag" FontSize="16" FontAttributes="Bold" />
+                                <Label Text="Was beschäftigt mich gerade?" FontSize="13"
+                                       TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+                            </VerticalStackLayout>
+                            <Button Grid.Column="2" Text="›" Command="{Binding DiscoverCommand}" CommandParameter="Alltag"
+                                    SemanticProperties.Description="Alltag öffnen" FontSize="22"
+                                    BackgroundColor="Transparent" Padding="0"
+                                    TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
+                        </Grid>
+                    </Border>
+                    <Border StrokeThickness="0" StrokeShape="RoundRectangle 12" Padding="12,4"
+                            BackgroundColor="{AppThemeBinding Light=#F5E8DB, Dark=#42352F}">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding DiscoverCommand}" CommandParameter="Glaubensfragen" />
+                        </Border.GestureRecognizers>
+                        <Grid ColumnDefinitions="28,*,44" ColumnSpacing="8" MinimumHeightRequest="62">
+                            <Label Text="♡" FontSize="20" VerticalOptions="Center" AutomationProperties.IsInAccessibleTree="False" />
+                            <VerticalStackLayout Grid.Column="1" Spacing="2" VerticalOptions="Center" Margin="0,6">
+                                <Label Text="Glaube" FontSize="16" FontAttributes="Bold" />
+                                <Label Text="Was möchte ich besser verstehen?" FontSize="13"
+                                       TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+                            </VerticalStackLayout>
+                            <Button Grid.Column="2" Text="›" Command="{Binding DiscoverCommand}" CommandParameter="Glaubensfragen"
+                                    SemanticProperties.Description="Glaubensfragen öffnen" FontSize="22"
+                                    BackgroundColor="Transparent" Padding="0"
+                                    TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
+                        </Grid>
+                    </Border>
+                    <Border StrokeThickness="0" StrokeShape="RoundRectangle 12" Padding="12,4"
+                            BackgroundColor="{AppThemeBinding Light=#E4ECF8, Dark=#293A51}">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding DiscoverCommand}" CommandParameter="Bibel entdecken" />
+                        </Border.GestureRecognizers>
+                        <Grid ColumnDefinitions="28,*,44" ColumnSpacing="8" MinimumHeightRequest="62">
+                            <Label Text="▤" FontSize="20" VerticalOptions="Center" AutomationProperties.IsInAccessibleTree="False" />
+                            <VerticalStackLayout Grid.Column="1" Spacing="2" VerticalOptions="Center" Margin="0,6">
+                                <Label Text="Bibel" FontSize="16" FontAttributes="Bold" />
+                                <Label Text="Welchen Bibeltext möchte ich kennenlernen?" FontSize="13"
+                                       TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}" />
+                            </VerticalStackLayout>
+                            <Button Grid.Column="2" Text="›" Command="{Binding DiscoverCommand}" CommandParameter="Bibel entdecken"
+                                    SemanticProperties.Description="Bibel entdecken öffnen" FontSize="22"
+                                    BackgroundColor="Transparent" Padding="0"
+                                    TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
+                        </Grid>
+                    </Border>
+                    <Button Text="Alle Themen durchsuchen" Command="{Binding DiscoverCommand}"
+                            BackgroundColor="Transparent" BorderWidth="1" CornerRadius="12"
+                            TextColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}"
+                            BorderColor="{AppThemeBinding Light={StaticResource LightPrimary}, Dark={StaticResource DarkPrimary}}" />
+                </VerticalStackLayout>
+                <VerticalStackLayout>
+                    <Label Text="developed by AppVentist." HorizontalTextAlignment="Center" TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
+                    <Label Text="recomended by bw.adventisten.de" HorizontalTextAlignment="Center" TextColor="{AppThemeBinding Light={StaticResource LightTextSecondary}, Dark={StaticResource DarkTextSecondary}}"/>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
         </ScrollView>
- </RefreshView>
+    </RefreshView>
 </ContentPage>

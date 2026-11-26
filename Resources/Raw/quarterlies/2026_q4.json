@@ -380,25 +380,52 @@
           "addedQuestions": [ "Wie können wir verhindern in unserem Glaubensleben „blind“ für Gottes Botschaft zu sein?" ]
         }        
       ]
+    },
+    {
+      "number": 9,
+      "title": "Propheten prüfen",
+      "memoryVerse": "„Ihr Lieben, glaubt nicht einem jeden Geist, sondern prüft die Geister, ob sie von Gott sind; denn viele falsche Propheten sind hinausgegangen in die Welt.“ (1 Joh 4,1)",
+      "description": "",
+      "startingQuestion": "Warum sind „Fake News“ (Falschnachrichten) heute so verbreitet?",
+      "questions": [
+        {
+          "label": "Numeri 12,1-8",
+          "passages": [ "nu 12,1-8" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Durch den Sündenfall ist der Mensch von Gott getrennt. Wie kommuniziert Gott dennoch mit den Menschen?" ],
+          "applicationQuestion": [ "Gott redet direkt mit Mose, während er den Propheten Träume und Visionen gibt. Worin unterscheidet sich Gottes Mitteilen hier und warum ist das wohl so?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Deuteronomium 13,1-6, 1 Johannes 4,1-3",
+          "passages": [ "de 13,1-6", "1 jo 4,1-3" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Gott warnt vor falschen Propheten. Warum soll Israel Leuten nicht glauben, obwohl ihre angekündigten Zeichen tatsächlich eintreffen?" ],
+          "applicationQuestion": [ "Wie können wir heute erkennen, ob eine religiöse Botschaft tatsächlich von Gott kommt oder uns in die Irre führt?", "Woran mag es liegen, dass uns außergewöhnliche Erlebnisse, Träume oder Wunder oft stärker beeindrucken als das schlichte Wort aus der Schrift?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Jesaja 8,16-23, 1 Thessalonicher 5,19-22",
+          "passages": [ "isa 8,16-23", "1 th 5,19-22" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum sind Wahrsager und Totenbeschwörer oft verlockender für die Menschen als Gottes „Weisung und Zeugnis“ (Weisung, hebr. torah meint Unterweisung und nicht ausschließlich die Zehn Gebote. Zeugnis, hebr. te'udah. Es bezeichnet Gottes Reden durch einen Propheten)?" ],
+          "applicationQuestion": [ "Worin liegen die Gefahren, wenn Gottes Wort missachtet wird?" ],
+          "addedQuestions": [ "" ]
+        },
+        {
+          "label": "Matthäus 7,16.22-24",
+          "passages": [ "mat 7,16.22-24" ],
+          "bibleReference": "",
+          "bibleText": "",
+          "bibleQuestion": [ "Warum warnt Jesus davor, Menschen allein aufgrund ihrer prophetischen Aussagen und Wunder als echte Diener Gottes anzuerkennen?" ],
+          "applicationQuestion": [ "Wie können wir heute die „Früchte“ eines Menschen oder einer prophetischen Botschaft erkennen und beurteilen?" ],
+          "addedQuestions": [ "Wo stehen wir heute in der Gefahr die eigentliche Botschaft und den Charakter eines Verkündigers nicht mehr kritisch zu hinterfragen aufgrund seiner beeindruckenden religiösen Leistungen?" ]
+        }
+      ]
     }
-      //{
-      //  "number": 9,
-      //  "title": "Propheten prüfen",
-      //  "memoryVerse": "„“ ()",
-      //  "description": "",
-      //  "startingQuestion": "",
-      //  "questions": [
-      //    {
-      //      "label": "",
-      //      "passages": [ "" ],
-      //      "bibleReference": "",
-      //      "bibleText": "",
-      //      "bibleQuestion": [ "" ],
-      //      "applicationQuestion": [ "" ],
-      //      "addedQuestions": [ "" ]
-      //    }
-      //  ]
-      //},
       //{
       //  "number": 10,
       //  "title": "Prophetische Autorität und Relevanz",
